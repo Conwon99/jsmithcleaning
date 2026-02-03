@@ -1,0 +1,142 @@
+import React from "react";
+
+interface ReviewsSectionProps {
+  backgroundImage?: string;
+}
+
+export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.png" }: ReviewsSectionProps) => {
+  return (
+    <section className="relative bg-scroll bg-stone-900/40 bg-no-repeat bg-cover box-border caret-transparent py-10 md:py-16 md:bg-fixed w-full" style={{ backgroundImage: `url('${backgroundImage}')`, backgroundSize: "cover", backgroundPosition: "center" }}>
+      <div className="absolute bg-black/50 box-border caret-transparent opacity-60 inset-0 md:bg-black/40 w-full"></div>
+      <div className="relative box-border caret-transparent flex flex-wrap max-w-[1300px] mx-auto md:flex-nowrap z-10 w-full">
+        <div className="relative box-border caret-transparent flex min-h-px w-full">
+          <div className="relative content-start box-border caret-transparent flex flex-wrap w-full p-5">
+            <div className="relative box-border caret-transparent w-full mb-8">
+              <div className="box-border caret-transparent">
+                <div className="box-border caret-transparent h-[30px]"></div>
+              </div>
+            </div>
+            
+            <div className="relative text-white text-lg box-border caret-transparent leading-7 text-center w-full mb-6 font-figtree md:text-2xl md:leading-9">
+              <div className="text-lg box-border caret-transparent leading-7 md:text-2xl md:leading-9">
+                <p className="text-lg box-border caret-transparent leading-7 mb-4 md:text-2xl md:leading-9">
+                  Check Out Great Reviews On Our
+                </p>
+              </div>
+            </div>
+            
+            <div className="relative box-border caret-transparent text-center w-full mb-6">
+              <div className="box-border caret-transparent">
+                <h3 className="text-white text-3xl font-bold not-italic box-border caret-transparent leading-9 font-thiccboi md:text-4xl md:leading-10">
+                  Exterior Cleaning Services in Ayrshire
+                </h3>
+              </div>
+            </div>
+            
+            <div className="relative box-border caret-transparent w-full mb-8">
+              <div className="box-border caret-transparent">
+                <div className="box-border caret-transparent flex text-center py-6">
+                  <span className="border-t-white box-border caret-transparent flex w-[10%] mx-auto border-t-[5px]"></span>
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative box-border caret-transparent w-full mb-8">
+              <div className="box-border caret-transparent flex items-center justify-center gap-4 mb-6">
+                <svg className="text-yellow-400 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                </svg>
+                <svg className="text-yellow-400 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                </svg>
+                <svg className="text-yellow-400 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                </svg>
+                <svg className="text-yellow-400 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                </svg>
+                <svg className="text-yellow-400 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                </svg>
+              </div>
+              <p className="text-white text-center text-lg font-figtree mb-8">
+                Rated 5 Stars by Our Customers
+              </p>
+              
+              {/* Reviews Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="bg-neutral-800/50 rounded-lg p-6">
+                  <div className="flex items-center gap-1 mb-3">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-white text-base mb-3 font-figtree">
+                    "Great service. Gutters were badly needing cleared. Guys done a great job, price was great also. Very happy customer who highly recommends this company."
+                  </p>
+                  <p className="text-white/90 text-sm font-semibold">- Maria Berry</p>
+                </div>
+                
+                <div className="bg-neutral-800/50 rounded-lg p-6">
+                  <div className="flex items-center gap-1 mb-3">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-white text-base mb-3 font-figtree">
+                    "I recently won the competition, although i just moved into a new build property in march there wasn't much needing done. However, the lads continued to do my back patio and side pathway. I have to contact them once my driveway needs done. Great guys start to finish. Great company"
+                  </p>
+                  <p className="text-white/90 text-sm font-semibold">- Clair Lambie</p>
+                </div>
+                
+                <div className="bg-neutral-800/50 rounded-lg p-6">
+                  <div className="flex items-center gap-1 mb-3">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-white text-base mb-3 font-figtree">
+                    "Fantastic service and very polite. Done a great job looks like brand new. Thanks Jason"
+                  </p>
+                  <p className="text-white/90 text-sm font-semibold">- Penny Smith</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative box-border caret-transparent w-full mb-8">
+              <div className="box-border caret-transparent">
+                <div className="box-border caret-transparent h-[30px]"></div>
+              </div>
+            </div>
+            
+            <div className="relative box-border caret-transparent text-center w-full mb-8">
+              <div className="box-border caret-transparent">
+                <a
+                  href="/contact"
+                  className="button-shine relative text-white text-lg font-bold box-border caret-transparent inline-flex items-center justify-center tracking-wide leading-normal text-center align-middle bg-[#8dae23] hover:bg-[#7a9a1f] hover:shadow-xl hover:scale-105 active:scale-100 transition-all duration-300 px-7 py-4 rounded-md shadow-lg whitespace-nowrap md:px-8 md:py-5 md:text-xl"
+                >
+                  <span className="relative z-10 text-white box-border caret-transparent uppercase whitespace-nowrap">
+                    Get A Free Quote
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+            <div className="relative box-border caret-transparent w-full">
+              <div className="box-border caret-transparent">
+                <div className="box-border caret-transparent h-[50px]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+

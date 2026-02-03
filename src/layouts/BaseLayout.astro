@@ -1,0 +1,336 @@
+---
+import { Header } from "@/sections/Header";
+import { Footer } from "@/sections/Footer";
+import { CallButton } from "@/components/CallButton";
+import "../tailwind.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  breadcrumbs?: Array<{ name: string; url: string }>;
+  locationName?: string;
+}
+
+const { title, description = "J Smith Exterior Cleaning - Professional exterior cleaning services in Ayrshire, Glasgow and surrounding areas. Roof cleaning, pressure washing, soft washing, and more. Fully insured, expert service.", breadcrumbs, locationName } = Astro.props;
+
+// Generate canonical URL (non-www)
+const canonicalUrl = new URL(Astro.url.pathname, "https://jsmithexteriorcleaning.com");
+const canonical = canonicalUrl.toString();
+
+// Organization JSON-LD Schema for logo in SERP
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "J Smith Exterior Cleaning",
+  "url": "https://jsmithexteriorcleaning.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://jsmithexteriorcleaning.com/jsmithcleaning.jpg",
+    "width": 500,
+    "height": 500,
+    "contentUrl": "https://jsmithexteriorcleaning.com/jsmithcleaning.jpg"
+  },
+  "image": "https://jsmithexteriorcleaning.com/jsmithcleaning.jpg",
+  "telephone": "+447857353191",
+  "email": "jasonsmith96@hotmail.co.uk",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ayrshire",
+    "addressRegion": "Scotland",
+    "addressCountry": "GB"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "24",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "sameAs": [
+    "https://www.facebook.com/albaexteriors",
+    "https://www.google.com/maps?cid=YOUR_GOOGLE_BUSINESS_ID"
+  ]
+};
+
+// HomeAndGardenBusiness JSON-LD Schema (more specific than ProfessionalService)
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndGardenBusiness",
+  "name": "J Smith Exterior Cleaning",
+  "provider": {
+    "@type": "Organization",
+    "name": "J Smith Exterior Cleaning",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jsmithexteriorcleaning.com/jsmithcleaning.jpg",
+      "width": 600,
+      "height": 200
+    }
+  },
+  "telephone": "+447857353191",
+  "email": "jasonsmith96@hotmail.co.uk",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ayrshire",
+    "addressRegion": "Scotland",
+    "addressCountry": "GB"
+  },
+  "openingHours": [
+    "Mo-Fr 08:00-18:00",
+    "Sa 08:00-16:00"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "24",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Kilmarnock" },
+    { "@type": "City", "name": "Ayr" },
+    { "@type": "City", "name": "Irvine" },
+    { "@type": "City", "name": "Ardrossan" },
+    { "@type": "City", "name": "Saltcoats" },
+    { "@type": "City", "name": "Stevenston" },
+    { "@type": "City", "name": "Troon" },
+    { "@type": "City", "name": "Prestwick" },
+    { "@type": "City", "name": "Cumnock" },
+    { "@type": "City", "name": "Largs" },
+    { "@type": "Place", "name": "Ayrshire" }
+  ],
+  "serviceType": [
+    "Roof Cleaning",
+    "Pressure Washing",
+    "PVC/Gutter Cleaning",
+    "Softwashing"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Exterior Cleaning Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Roof Cleaning",
+          "description": "Professional roof cleaning service using biocide treatment to safely remove moss, algae, and lichen"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pressure Washing",
+          "description": "High-pressure cleaning for driveways, patios, and hard surfaces"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Soft Washing",
+          "description": "Gentle cleaning for render, walls, and delicate surfaces to remove algae and moss safely"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "PVC/Gutter Cleaning",
+          "description": "Professional cleaning of uPVC windows, frames, and gutters"
+        }
+      }
+    ]
+  },
+  "url": "https://jsmithexteriorcleaning.com"
+};
+
+// Generate full URL for current page
+const fullUrl = new URL(Astro.url.pathname, "https://jsmithexteriorcleaning.com");
+const ogImage = "https://jsmithexteriorcleaning.com/jsmithcleaning.jpg";
+
+// BreadcrumbList JSON-LD Schema (if breadcrumbs provided)
+let breadcrumbSchema = null;
+if (breadcrumbs && breadcrumbs.length > 0) {
+  breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": crumb.name,
+      "item": `https://jsmithexteriorcleaning.com${crumb.url}`
+    }))
+  };
+}
+
+// LocalBusiness JSON-LD Schema (if locationName provided)
+let localBusinessSchema = null;
+if (locationName) {
+  localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": `J Smith Exterior Cleaning - ${locationName}`,
+    "image": "https://jsmithexteriorcleaning.com/jsmithcleaning.jpg",
+    "telephone": "+447857353191",
+    "email": "jasonsmith96@hotmail.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": locationName,
+      "addressRegion": "Scotland",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "addressLocality": locationName,
+      "addressRegion": "Scotland"
+    },
+    "url": `https://jsmithexteriorcleaning.com${Astro.url.pathname}`,
+    "priceRange": "$$",
+    "openingHours": [
+      "Mo-Fr 08:00-18:00",
+      "Sa 08:00-16:00"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "24",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": locationName
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Exterior Cleaning Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Roof Cleaning",
+            "description": "Professional roof cleaning service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pressure Washing",
+            "description": "Professional pressure washing service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Soft Washing",
+            "description": "Professional soft washing service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Gutter Cleaning",
+            "description": "Professional gutter cleaning service"
+          }
+        }
+      ]
+    }
+  };
+}
+---
+
+<!doctype html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/jpeg" href="/jsmithcleaning.jpg" />
+    <link rel="apple-touch-icon" href="/jsmithcleaning.jpg" />
+    
+    <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={fullUrl.toString()} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="J Smith Exterior Cleaning" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={fullUrl.toString()} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C39RC6DXXL"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-C39RC6DXXL');
+    </script>
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
+    {localBusinessSchema && <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />}
+    <!-- Global phone tracking script -->
+    <script is:inline>
+      (function() {
+        if (typeof window !== 'undefined') {
+          function updatePhoneNumbers() {
+            const links = document.querySelectorAll('.phone-link[data-tracking-href]');
+            links.forEach(function(link) {
+              link.href = link.dataset.trackingHref;
+              const numberSpan = link.querySelector('.phone-number');
+              if (numberSpan) {
+                numberSpan.textContent = link.dataset.trackingDisplay;
+              } else if (link.textContent && link.dataset.trackingDisplay) {
+                // For links without a separate number span (like thank-you page)
+                link.textContent = link.dataset.trackingDisplay;
+              }
+            });
+          }
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updatePhoneNumbers);
+          } else {
+            updatePhoneNumbers();
+          }
+        }
+      })();
+    </script>
+    <style>
+      * {
+        max-width: 100%;
+      }
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body class="text-black text-sm not-italic normal-nums font-normal accent-auto bg-zinc-100 box-border caret-transparent block tracking-[normal] leading-[20.3px] list-outside list-disc break-words overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-figtree md:text-[17px] md:leading-[24.65px]">
+    <Header client:load />
+    <main>
+      <slot />
+    </main>
+    <Footer client:load />
+    <CallButton client:load />
+  </body>
+</html>
+
+

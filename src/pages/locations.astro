@@ -1,0 +1,142 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { ContactFormSection } from '@/sections/ContactFormSection';
+---
+
+<BaseLayout 
+  title="Service Areas | J Smith Exterior Cleaning | Kilmarnock, Ayr, Irvine & Ayrshire"
+  description="J Smith Exterior Cleaning provides professional exterior cleaning services across Ayrshire. Serving Kilmarnock, Ayr, Irvine, Ardrossan, Saltcoats, Stevenston, Troon, Prestwick, Cumnock, Largs and surrounding areas. Contact us today."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Locations", url: "/locations" }
+  ]}
+>
+  <div
+    role="main"
+    class="text-sm bg-white box-border caret-transparent leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
+  >
+    <!-- Hero Section -->
+    <div class="relative text-sm box-border caret-transparent flex items-center justify-center leading-[20.3px] break-words h-[400px] md:text-[17px] md:h-[500px] md:leading-[24.65px] overflow-hidden">
+      <div
+        class="absolute inset-0 bg-no-repeat bg-cover bg-center"
+        style={`background-image: url('${encodeURI("/services/pressurewashing.png")}');`}
+      />
+      <div class="absolute inset-0 bg-black/50" />
+      <div class="relative text-sm box-border caret-transparent z-10 leading-[20.3px] break-words text-center md:text-[17px] md:leading-[24.65px]">
+        <h1 class="text-white text-4xl font-bold box-border caret-transparent leading-[50px] break-words uppercase font-thiccboi md:text-6xl md:leading-[70px] drop-shadow-lg">
+          Our Service Areas
+        </h1>
+        <p class="text-white text-xl box-border caret-transparent leading-[28px] break-words mt-4 md:text-2xl md:leading-[32px] drop-shadow-lg">
+          Professional Exterior Cleaning Throughout Ayrshire
+        </p>
+      </div>
+    </div>
+
+    <!-- Locations Content Section -->
+    <div class="relative text-sm items-center box-border caret-transparent flex justify-center leading-[20.3px] break-words px-5 py-10 md:text-[17px] md:leading-[24.65px] md:px-5 md:py-16">
+      <div class="text-sm box-border caret-transparent grow leading-[20.3px] max-w-[1300px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
+        <!-- Introduction -->
+        <div class="text-sm box-border caret-transparent text-center mb-12 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <h2 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-[42px] break-words uppercase font-thiccboi mb-4 md:text-4xl md:leading-[50px]">
+            Where We Serve
+          </h2>
+          <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words max-w-3xl mx-auto font-figtree md:text-lg md:leading-7">
+            J Smith Exterior Cleaning is proud to serve homeowners and businesses throughout Ayrshire. We provide professional exterior cleaning services across Kilmarnock, Ayr, Irvine, Ardrossan, Saltcoats, Stevenston, Troon, Prestwick, Cumnock, Largs and surrounding areas.
+          </p>
+        </div>
+
+        <!-- Main Service Areas -->
+        <div class="text-sm box-border caret-transparent grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Kilmarnock</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Exterior cleaning in Kilmarnock, East Ayrshire. Serving Dean, Onthank, Shortlees, and surrounding areas.</p>
+            <a href="/kilmarnock" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Kilmarnock Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Ayr</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Professional exterior cleaning in Ayr, the county town. Serving Alloway, Prestwick, Troon, and surrounding areas.</p>
+            <a href="/ayr" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Ayr Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Irvine</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Exterior cleaning in Irvine, North Ayrshire. Serving Kilwinning, Stevenston, Saltcoats, and surrounding areas.</p>
+            <a href="/irvine" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Irvine Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Ardrossan</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Exterior cleaning in Ardrossan, North Ayrshire. Serving Saltcoats, Stevenston, West Kilbride, and surrounding areas.</p>
+            <a href="/ardrossan" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Ardrossan Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Saltcoats</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Professional exterior cleaning in Saltcoats, North Ayrshire. Serving Ardrossan, Stevenston, Irvine, and surrounding areas.</p>
+            <a href="/saltcoats" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Saltcoats Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Stevenston</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Professional exterior cleaning in Stevenston, North Ayrshire. Serving Saltcoats, Ardrossan, Irvine, and surrounding areas.</p>
+            <a href="/stevenston" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Stevenston Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Troon</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Exterior cleaning in Troon, South Ayrshire. Serving Barassie, Loans, Prestwick, and surrounding areas.</p>
+            <a href="/troon" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Troon Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Prestwick</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Professional exterior cleaning in Prestwick, South Ayrshire. Serving Ayr, Monkton, and surrounding areas.</p>
+            <a href="/prestwick" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Prestwick Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Cumnock</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Exterior cleaning in Cumnock, East Ayrshire. Serving Auchinleck, Ochiltree, and surrounding areas.</p>
+            <a href="/cumnock" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Cumnock Services →</a>
+          </div>
+          <div class="bg-white border-2 border-[#17539B]/20 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+            <h3 class="text-[#17539B] text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-3">Largs</h3>
+            <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree mb-4">Professional exterior cleaning in Largs, North Ayrshire. Serving Fairlie, Skelmorlie, Wemyss Bay, and surrounding areas.</p>
+            <a href="/largs" class="text-cyan-600 hover:text-cyan-700 hover:underline font-semibold text-base inline-block mt-4">View Largs Services →</a>
+          </div>
+        </div>
+
+        <!-- Additional Areas -->
+        <div class="text-sm box-border caret-transparent bg-cyan-50 rounded-lg p-8 mb-12 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <h3 class="text-cyan-600 text-2xl font-bold box-border caret-transparent leading-8 break-words uppercase font-thiccboi mb-4 text-center">
+            Comprehensive Coverage
+          </h3>
+          <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words text-center font-figtree mb-6 md:text-lg md:leading-7">
+            Our service coverage extends across Ayrshire including Kilmarnock, Ayr, Irvine, Ardrossan, Saltcoats, Stevenston, Troon, Prestwick, Cumnock, and Largs. We're committed to bringing professional exterior cleaning services to properties throughout the region.
+          </p>
+          <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words text-center font-figtree mt-6 md:text-lg md:leading-7">
+            Don't see your specific area listed? <a href="/contact" class="text-cyan-600 font-semibold hover:text-cyan-700 underline">Contact us</a> to find out if we can serve your location.
+          </p>
+        </div>
+
+        <!-- Why Choose Local Service -->
+        <div class="text-sm box-border caret-transparent mb-12 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <h2 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-[42px] break-words uppercase font-thiccboi mb-6 text-center md:text-4xl md:leading-[50px]">
+            Why Choose a Local Service?
+          </h2>
+          <div class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words space-y-4 font-figtree md:text-lg md:leading-7 max-w-4xl mx-auto">
+            <p>
+              As an Ayrshire-based company, we understand the unique challenges of maintaining properties across the region - from coastal towns like Ayr, Troon, and Largs to inland areas like Kilmarnock and Cumnock. From heavy rainfall to coastal salt and moss growth, we're equipped with the knowledge and experience to handle the specific needs of Ayrshire properties.
+            </p>
+            <p>
+              Our local presence means we can respond quickly to your needs, provide personalized service, and understand the local conditions. We're committed to building long-term relationships with our customers and supporting the Ayrshire community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact CTA Section -->
+    <div class="relative text-sm items-center box-border caret-transparent flex justify-center leading-[20.3px] break-words px-5 py-10 bg-neutral-50 md:text-[17px] md:leading-[24.65px] md:px-5 md:py-16">
+      <div class="text-sm box-border caret-transparent grow leading-[20.3px] max-w-[800px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
+        <div id="contact">
+          <ContactFormSection client:load />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+

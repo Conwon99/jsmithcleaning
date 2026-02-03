@@ -1,0 +1,165 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { ContactFormSection } from '@/sections/ContactFormSection';
+import { siteImages } from '@/config/images';
+---
+
+<BaseLayout 
+  title="About J Smith Exterior Cleaning | Professional Exterior Cleaning in Ayrshire"
+  description="Learn about J Smith Exterior Cleaning, a professional exterior cleaning company serving Ayrshire. Roof cleaning, pressure washing, soft washing, gutter cleaning and more across Kilmarnock, Ayr, Irvine, Troon, and surrounding areas. Fully insured, expert service."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "About", url: "/about" }
+  ]}
+>
+  <div
+    role="main"
+    class="text-sm bg-white box-border caret-transparent leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
+  >
+    <!-- Hero Section -->
+    <div class="relative text-sm box-border caret-transparent flex items-center justify-center leading-[20.3px] break-words h-[400px] md:text-[17px] md:h-[500px] md:leading-[24.65px] overflow-hidden">
+      <div
+        class="absolute inset-0 bg-no-repeat bg-cover bg-center"
+        style={`background-image: url('${encodeURI(siteImages.showcase)}');`}
+      />
+      <div class="absolute inset-0 bg-black/50" />
+      <div class="relative text-sm box-border caret-transparent z-10 leading-[20.3px] break-words text-center md:text-[17px] md:leading-[24.65px]">
+        <h1 class="text-white text-4xl font-bold box-border caret-transparent leading-[50px] break-words uppercase font-thiccboi md:text-6xl md:leading-[70px] drop-shadow-lg">
+          About J Smith Exterior Cleaning
+        </h1>
+        <p class="text-white text-xl box-border caret-transparent leading-[28px] break-words mt-4 md:text-2xl md:leading-[32px] drop-shadow-lg">
+          Professional Exterior Cleaning Services in Ayrshire
+        </p>
+      </div>
+    </div>
+
+    <!-- About Content Section -->
+    <div class="relative text-sm items-center box-border caret-transparent flex justify-center leading-[20.3px] break-words px-5 py-10 md:text-[17px] md:leading-[24.65px] md:px-5 md:py-16">
+      <div class="text-sm box-border caret-transparent grow leading-[20.3px] max-w-[1300px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
+        <div class="text-sm box-border caret-transparent flex flex-col md:flex-row gap-8 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <!-- Left Column - Image -->
+          <div class="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words w-full md:text-[17px] md:leading-[24.65px] md:w-1/2">
+            <div
+              class="text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent block leading-[20.3px] break-words w-full h-[400px] rounded-lg shadow-lg md:text-[17px] md:h-[500px] md:leading-[24.65px]"
+              style={`background-image: url('${encodeURI(siteImages.showcase)}');`}
+            />
+          </div>
+
+          <!-- Right Column - Content -->
+          <div class="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words w-full md:text-[17px] md:leading-[24.65px] md:w-1/2">
+            <h2 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-[42px] break-words uppercase font-thiccboi mb-6 md:text-4xl md:leading-[50px]">
+              Who We Are
+            </h2>
+            <div class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words space-y-4 font-figtree md:text-lg md:leading-7">
+              <p>
+                J Smith Exterior Cleaning is a professional exterior cleaning company serving Ayrshire and surrounding areas. We cover Kilmarnock, Ayr, Irvine, Ardrossan, Saltcoats, Stevenston, Troon, Prestwick, Cumnock, Largs, and the wider Ayrshire region. We specialize in transforming the exterior appearance of residential and commercial properties using the latest techniques and eco-friendly solutions.
+              </p>
+              <p>
+                Our team combines years of experience with professional training to deliver outstanding results on every project. We understand that your property's exterior is the first thing visitors see, and we're committed to helping you make the best possible impression.
+              </p>
+              <p>
+                Our services include roof cleaning, pressure washing, soft washing, PVC and gutter cleaning, driveway and patio cleaning, brick cleaning, conservatory cleaning, and uPVC cleaning. We offer a comprehensive range of services designed to restore and protect your property's appearance. Our fully insured team uses specialized equipment and proven methods to ensure safe, effective cleaning without causing damage to your property.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Values Section -->
+        <div class="text-sm box-border caret-transparent mt-12 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <h2 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-[42px] break-words uppercase font-thiccboi mb-8 text-center md:text-4xl md:leading-[50px]">
+            Our Values
+          </h2>
+          <div class="text-sm box-border caret-transparent grid grid-cols-1 md:grid-cols-3 gap-6 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+            <div class="bg-[#17539B]/10 rounded-lg p-6">
+              <h3 class="text-[#17539B] text-xl font-bold box-border caret-transparent leading-7 break-words uppercase font-thiccboi mb-3">
+                Professionalism
+              </h3>
+              <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree">
+                We maintain the highest standards of professionalism in every aspect of our work, from initial consultation to project completion.
+              </p>
+            </div>
+            <div class="bg-[#17539B]/10 rounded-lg p-6">
+              <h3 class="text-[#17539B] text-xl font-bold box-border caret-transparent leading-7 break-words uppercase font-thiccboi mb-3">
+                Reliability
+              </h3>
+              <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree">
+                You can count on us to arrive on time, complete work as promised, and deliver consistent, high-quality results every time.
+              </p>
+            </div>
+            <div class="bg-[#17539B]/10 rounded-lg p-6">
+              <h3 class="text-[#17539B] text-xl font-bold box-border caret-transparent leading-7 break-words uppercase font-thiccboi mb-3">
+                Customer Satisfaction
+              </h3>
+              <p class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words font-figtree">
+                Your satisfaction is our priority. We're committed to exceeding your expectations and ensuring you're completely happy with our work.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <div class="text-sm box-border caret-transparent mt-12 leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
+          <h2 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-[42px] break-words uppercase font-thiccboi mb-8 text-center md:text-4xl md:leading-[50px]">
+            Why Choose J Smith Exterior Cleaning?
+          </h2>
+          <div class="text-neutral-700 text-base box-border caret-transparent leading-6 break-words space-y-4 font-figtree md:text-lg md:leading-7 max-w-4xl mx-auto">
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-8 h-8 bg-[#17539B] rounded-full flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-neutral-900 text-lg font-bold mb-2">Fully Insured & Trained</h3>
+                <p>Our team is fully insured and professionally trained to handle all types of exterior cleaning projects safely and effectively.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-8 h-8 bg-[#17539B] rounded-full flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-neutral-900 text-lg font-bold mb-2">Eco-Friendly Solutions</h3>
+                <p>We use environmentally friendly cleaning solutions that are safe for your property, your family, and the environment.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-8 h-8 bg-[#17539B] rounded-full flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-neutral-900 text-lg font-bold mb-2">Quality Guaranteed</h3>
+                <p>We guarantee exceptional results on every job. Your satisfaction is our priority, and we won't stop until you're happy with the outcome.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-8 h-8 bg-[#17539B] rounded-full flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-neutral-900 text-lg font-bold mb-2">Local Expertise</h3>
+                <p>As an Ayrshire-based company, we understand the unique challenges of maintaining properties across Kilmarnock, Ayr, Irvine, Troon, Prestwick, and the wider region. We're equipped to handle Scotland's climate and coastal conditions effectively.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact CTA Section -->
+    <div class="relative text-sm items-center box-border caret-transparent flex justify-center leading-[20.3px] break-words px-5 py-10 bg-neutral-50 md:text-[17px] md:leading-[24.65px] md:px-5 md:py-16">
+      <div class="text-sm box-border caret-transparent grow leading-[20.3px] max-w-[800px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
+        <div id="contact">
+          <ContactFormSection client:load />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
