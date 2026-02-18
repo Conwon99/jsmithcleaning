@@ -19,6 +19,8 @@ const getServiceImageUrl = (title: string): string => {
     'softwashing': '/SOFTWASH1.jpeg',
     'pressurewashing': '/services/pressurewashing.png',
     'pvcguttercleaning': '/Gutter.png',
+    'patiocleaning': '/services/patiocleaning.jpg',
+    'drivewaycleaning': '/services/drivewaycleaning.png',
   };
   
   return serviceImageMap[filename] || `/services/${filename}.jpg`;
@@ -44,6 +46,16 @@ const services: ServiceItem[] = [
     title: "Softwashing",
     description: "Gentle, effective soft washing for render and roughcast that removes algae and carbon using chemicals applied at low pressure, ensuring no damage to your property. Perfect for delicate surfaces that require careful treatment to maintain their integrity.",
     path: "/soft-washing",
+  },
+  {
+    title: "Patio Cleaning",
+    description: "Professional patio cleaning to restore your outdoor living spaces. Removes moss, algae, and dirt for a like-new finish. Ideal for stone, concrete, and block paving.",
+    path: "/patio-cleaning",
+  },
+  {
+    title: "Driveway Cleaning",
+    description: "Expert driveway cleaning to remove oil stains, dirt, and grime. Enhances curb appeal and extends the life of your driveway. Suitable for all driveway surfaces.",
+    path: "/driveway-cleaning",
   },
 ];
 

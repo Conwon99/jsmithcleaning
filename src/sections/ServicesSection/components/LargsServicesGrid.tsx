@@ -7,6 +7,8 @@ const services: ServiceGridItem[] = [
   { title: "PRESSURE WASHING", imageUrl: "/services/pressurewashing.png", path: "/largs/pressure-washing", description: "Powerful pressure washing services for driveways, patios, and exterior surfaces to remove tough stains and dirt." },
   { title: "PVC/GUTTER CLEANING", imageUrl: "/Gutter.png", path: "/largs/gutter-cleaning", description: "Professional PVC window, door, and frame cleaning combined with comprehensive gutter cleaning and maintenance services." },
   { title: "SOFTWASHING", imageUrl: "/SOFTWASH1.jpeg", path: "/largs/soft-washing", description: "Gentle yet effective soft washing for delicate surfaces, using eco-friendly solutions to safely clean your property." },
+  { title: "PATIO CLEANING", imageUrl: "/services/patiocleaning.jpg", path: "/largs/patio-cleaning", description: "Professional patio cleaning to restore your outdoor living spaces. Removes moss, algae, and dirt for a like-new finish." },
+  { title: "DRIVEWAY CLEANING", imageUrl: "/services/drivewaycleaning.png", path: "/largs/driveway-cleaning", description: "Expert driveway cleaning to remove oil stains, dirt, and grime. Enhances curb appeal and extends the life of your driveway." },
 ];
 
 export const LargsServicesGrid = () => (

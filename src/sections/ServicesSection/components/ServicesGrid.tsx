@@ -32,6 +32,18 @@ const services: ServiceGridItem[] = [
     path: "/soft-washing",
     description: "Gentle yet effective soft washing for delicate surfaces, using eco-friendly solutions to safely clean your property.",
   },
+  {
+    title: "PATIO CLEANING",
+    imageUrl: "/services/patiocleaning.jpg",
+    path: "/patio-cleaning",
+    description: "Professional patio cleaning to restore your outdoor living spaces. Removes moss, algae, and dirt for a like-new finish.",
+  },
+  {
+    title: "DRIVEWAY CLEANING",
+    imageUrl: "/services/drivewaycleaning.png",
+    path: "/driveway-cleaning",
+    description: "Expert driveway cleaning to remove oil stains, dirt, and grime. Enhances curb appeal and extends the life of your driveway.",
+  },
 ];
 
 export const ServicesGrid = () => {
@@ -46,7 +58,7 @@ export const ServicesGrid = () => {
           >
             <div className="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
               <div
-                className="text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent relative block leading-[20.3px] break-words w-full aspect-square transition-transform duration-300 ease-in-out group-hover:scale-110 md:text-[17px] md:leading-[24.65px]"
+                className="text-sm bg-neutral-200 bg-no-repeat bg-cover bg-center box-border caret-transparent relative block leading-[20.3px] break-words w-full min-h-[220px] aspect-square transition-transform duration-300 ease-in-out group-hover:scale-110 md:text-[17px] md:leading-[24.65px] md:min-h-[280px]"
                 style={{
                   backgroundImage: `url('${encodeURI(service.imageUrl)}')`,
                 }}

@@ -25,6 +25,8 @@ export const Footer = () => {
                     { name: "Pressure Washing", url: "/pressure-washing" },
                     { name: "PVC/Gutter Cleaning", url: "/gutter-cleaning" },
                     { name: "Softwashing", url: "/soft-washing" },
+                    { name: "Patio Cleaning", url: "/patio-cleaning" },
+                    { name: "Driveway Cleaning", url: "/driveway-cleaning" },
                   ]}
                   locations={[
                     { name: "Kilmarnock", url: "/kilmarnock" },

@@ -3,7 +3,6 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { ContactFormSection } from '@/sections/ContactFormSection';
 import { WelcomeSection } from '@/sections/WelcomeSection';
 import { ReviewsSection } from '@/sections/ReviewsSection';
-import { RoofCleaningBeforeAfter } from '@/sections/BeforeAfterSection/RoofCleaningBeforeAfter';
 ---
 
 <BaseLayout 
@@ -359,8 +358,6 @@ import { RoofCleaningBeforeAfter } from '@/sections/BeforeAfterSection/RoofClean
     <!-- WelcomeSection -->
     <WelcomeSection client:load backgroundImage="/services/pressurewashing.png" />
 
-    <!-- Patio & Driveway Cleaning Before & After Section -->
-    <RoofCleaningBeforeAfter client:load />
 
     <!-- ServiceDetails Section -->
     <section class="relative bg-white box-border caret-transparent py-12 md:py-16">

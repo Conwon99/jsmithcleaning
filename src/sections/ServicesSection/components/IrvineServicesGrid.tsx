@@ -32,6 +32,18 @@ const services: ServiceGridItem[] = [
     path: "/irvine/soft-washing",
     description: "Gentle yet effective soft washing for delicate surfaces, using eco-friendly solutions to safely clean your property.",
   },
+  {
+    title: "PATIO CLEANING",
+    imageUrl: "/services/patiocleaning.jpg",
+    path: "/irvine/patio-cleaning",
+    description: "Professional patio cleaning to restore your outdoor living spaces. Removes moss, algae, and dirt for a like-new finish.",
+  },
+  {
+    title: "DRIVEWAY CLEANING",
+    imageUrl: "/services/drivewaycleaning.png",
+    path: "/irvine/driveway-cleaning",
+    description: "Expert driveway cleaning to remove oil stains, dirt, and grime. Enhances curb appeal and extends the life of your driveway.",
+  },
 ];
 
 export const IrvineServicesGrid = () => {
