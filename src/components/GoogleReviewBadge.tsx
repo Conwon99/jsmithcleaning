@@ -4,7 +4,7 @@ interface GoogleReviewBadgeProps {
 }
 
 export const GoogleReviewBadge = ({ stacked = false }: GoogleReviewBadgeProps = {}) => {
-  return (
+  const badge = (
     <div
       className={`inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 ${
         stacked ? "mt-6" : "mt-6 md:mt-0 md:ml-6"
@@ -57,4 +57,10 @@ export const GoogleReviewBadge = ({ stacked = false }: GoogleReviewBadgeProps = 
       </div>
     </div>
   );
+
+  if (stacked) {
+    return <div className="block w-full text-center">{badge}</div>;
+  }
+
+  return badge;
 };

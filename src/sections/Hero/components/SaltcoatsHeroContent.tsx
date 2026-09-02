@@ -56,7 +56,7 @@ export const SaltcoatsHeroContent = () => {
                     </span>
                   </a>
 
-                  <GoogleReviewBadge />
+                  <GoogleReviewBadge stacked />
                 </div>
               </div>
             </div>

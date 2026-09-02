@@ -74,7 +74,7 @@ export const HeroContent = () => {
                     </span>
                   </a>
 
-                  <GoogleReviewBadge />
+                  <GoogleReviewBadge stacked />
                 </div>
               </div>
             </div>

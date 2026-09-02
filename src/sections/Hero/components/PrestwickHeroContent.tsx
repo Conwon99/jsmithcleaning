@@ -31,7 +31,7 @@ export const PrestwickHeroContent = () => {
                   <span className="relative z-10 text-white box-border caret-transparent uppercase whitespace-nowrap">Get A Free Quote</span>
                 </a>
 
-                <GoogleReviewBadge />
+                <GoogleReviewBadge stacked />
               </div>
             </div>
           </div>

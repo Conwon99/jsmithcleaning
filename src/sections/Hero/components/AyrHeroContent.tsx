@@ -56,7 +56,7 @@ export const AyrHeroContent = () => {
                     </span>
                   </a>
 
-                  <GoogleReviewBadge />
+                  <GoogleReviewBadge stacked />
                 </div>
               </div>
             </div>
