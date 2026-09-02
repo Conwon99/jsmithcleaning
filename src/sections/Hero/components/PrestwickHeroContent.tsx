@@ -27,11 +27,11 @@ export const PrestwickHeroContent = () => {
             </div>
             <div className="text-sm box-border caret-transparent leading-[20.3px] break-words mb-5 mx-5 md:text-[17px] md:leading-[24.65px]">
               <div className="text-sm box-border caret-transparent leading-[20.3px] break-words text-center md:text-[17px] md:leading-[24.65px]">
-                <GoogleReviewBadge />
-
                 <a href="/contact" title="Get A Free Quote" role="button" aria-label="Get A Free Quote" className="button-shine relative text-white text-lg font-bold box-border caret-transparent inline-flex items-center justify-center tracking-wide leading-normal text-center align-middle bg-[#17539B] hover:bg-[#134080] hover:shadow-xl hover:scale-105 active:scale-100 transition-all duration-300 px-7 py-4 rounded-md shadow-lg whitespace-nowrap md:px-8 md:py-5 md:text-xl">
                   <span className="relative z-10 text-white box-border caret-transparent uppercase whitespace-nowrap">Get A Free Quote</span>
                 </a>
+
+                <GoogleReviewBadge />
               </div>
             </div>
           </div>
