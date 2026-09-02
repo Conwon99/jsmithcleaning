@@ -4,10 +4,10 @@ import { BeforeAfterSection } from "./index";
 export const RoofCleaningBeforeAfter = () => {
   return (
     <BeforeAfterSection
-      beforeImage="/bef1.png"
-      afterImage="/af1.png"
-      title="Soft Washing Before & After"
-      subtitle="Soft Washing Results"
+      beforeImage="/roof-cleaning-before.jpg"
+      afterImage="/roof-cleaning-after.jpg"
+      title="Roof Cleaning Before & After"
+      subtitle="Roof Cleaning Results"
     />
   );
 };
