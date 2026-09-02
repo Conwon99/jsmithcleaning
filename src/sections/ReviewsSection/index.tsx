@@ -74,11 +74,11 @@ export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.pn
                     ))}
                   </div>
                   <p className="text-white text-base mb-3 font-figtree">
-                    "Great service. Gutters were badly needing cleared. Guys done a great job, price was great also. Very happy customer who highly recommends this company."
+                    "Had Jason and the team round to give the drive and roof a deep clean. The workmanship was great, he knew his stuff. The outcome was outstanding, the roof was left looking like new. 5 star service, will definitely use again in the future."
                   </p>
-                  <p className="text-white/90 text-sm font-semibold">- Maria Berry</p>
+                  <p className="text-white/90 text-sm font-semibold">- Andrew Shearer</p>
                 </div>
-                
+
                 <div className="bg-neutral-800/50 rounded-lg p-6">
                   <div className="flex items-center gap-1 mb-3">
                     {[...Array(5)].map((_, i) => (
@@ -88,11 +88,11 @@ export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.pn
                     ))}
                   </div>
                   <p className="text-white text-base mb-3 font-figtree">
-                    "I recently won the competition, although i just moved into a new build property in march there wasn't much needing done. However, the lads continued to do my back patio and side pathway. I have to contact them once my driveway needs done. Great guys start to finish. Great company"
+                    "Had this company twice doing jobs for me (monoblock drive) and (roof cleaned) great finish on both jobs, roof looks like brand new, (best looking roof in the street now) decent and fair prices and Jason is a lovely and accommodating guy. Keep up the good work and I will definitely be using them again."
                   </p>
-                  <p className="text-white/90 text-sm font-semibold">- Clair Lambie</p>
+                  <p className="text-white/90 text-sm font-semibold">- Robert Smith</p>
                 </div>
-                
+
                 <div className="bg-neutral-800/50 rounded-lg p-6">
                   <div className="flex items-center gap-1 mb-3">
                     {[...Array(5)].map((_, i) => (
@@ -102,9 +102,23 @@ export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.pn
                     ))}
                   </div>
                   <p className="text-white text-base mb-3 font-figtree">
-                    "Fantastic service and very polite. Done a great job looks like brand new. Thanks Jason"
+                    "Thanks to Jason at J Smith Power Washing. Got the boys in to power wash the tarmac at my back door as it was covered in green moss and the result came up great, would highly recommend and will definitely be using the boys again. Thanks again for your services."
                   </p>
-                  <p className="text-white/90 text-sm font-semibold">- Penny Smith</p>
+                  <p className="text-white/90 text-sm font-semibold">- Dylan Hall</p>
+                </div>
+
+                <div className="bg-neutral-800/50 rounded-lg p-6">
+                  <div className="flex items-center gap-1 mb-3">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-white text-base mb-3 font-figtree">
+                    "Used this company to do a roof clean and they done a great job at a good price and got it done quickly, they also went over and above what we spoke about when they viewed the job initially by doing extra cleaning in and around the areas we agreed on. I would definitely recommend them."
+                  </p>
+                  <p className="text-white/90 text-sm font-semibold">- Darren</p>
                 </div>
               </div>
             </div>
