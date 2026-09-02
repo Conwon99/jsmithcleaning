@@ -1,6 +1,15 @@
-export const GoogleReviewBadge = () => {
+interface GoogleReviewBadgeProps {
+  /** Always stack below whatever precedes it, instead of sitting beside it on desktop */
+  stacked?: boolean;
+}
+
+export const GoogleReviewBadge = ({ stacked = false }: GoogleReviewBadgeProps = {}) => {
   return (
-    <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 mt-6 md:mt-0 md:ml-6">
+    <div
+      className={`inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 ${
+        stacked ? "mt-6" : "mt-6 md:mt-0 md:ml-6"
+      }`}
+    >
       <div className="flex-shrink-0 w-10 h-10 rounded-md bg-white flex items-center justify-center">
         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path

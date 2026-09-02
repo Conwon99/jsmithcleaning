@@ -1,4 +1,5 @@
 import React from "react";
+import { GoogleReviewBadge } from "@/components/GoogleReviewBadge";
 
 export const CTASection = () => {
   return (
@@ -48,6 +49,9 @@ export const CTASection = () => {
                     Get A Free Quote
                   </span>
                 </a>
+              </div>
+              <div className="flex justify-center">
+                <GoogleReviewBadge stacked />
               </div>
             </div>
             <div className="relative box-border caret-transparent block min-h-[auto] min-w-[auto] w-full md:hidden md:min-h-0 md:min-w-0">
