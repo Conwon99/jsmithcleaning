@@ -70,7 +70,7 @@ export const ServiceIntro = () => {
                               </svg>
                             </div>
                           </span>
-                          <span className="text-sm self-center box-border caret-transparent block leading-6 pl-2 font-figtree md:text-base md:whitespace-nowrap">
+                          <span className="text-sm self-center box-border caret-transparent block leading-6 pl-2 font-figtree md:text-base">
                             {question}
                           </span>
                         </li>
