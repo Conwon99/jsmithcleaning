@@ -2,8 +2,12 @@ import React from "react";
 
 export const CTASection = () => {
   return (
-    <section className="relative bg-[#17539B] box-border caret-transparent py-10 md:py-16">
-      <div className="relative items-center box-border caret-transparent flex flex-wrap max-w-[1300px] min-h-[300px] mx-auto md:flex-nowrap">
+    <section
+      className="relative bg-scroll bg-cover bg-center bg-no-repeat box-border caret-transparent py-10 md:py-16 md:bg-fixed"
+      style={{ backgroundImage: `url('${encodeURI("/cta-roof-drone.jpg")}')` }}
+    >
+      <div className="absolute bg-[#17539B]/85 box-border caret-transparent inset-0"></div>
+      <div className="relative z-10 items-center box-border caret-transparent flex flex-wrap max-w-[1300px] min-h-[300px] mx-auto md:flex-nowrap">
         <div className="relative box-border caret-transparent flex min-h-px w-full md:w-[66.666%]">
           <div className="relative content-start box-border caret-transparent flex flex-wrap w-full p-5">
             <div className="relative box-border caret-transparent block min-h-[auto] min-w-[auto] w-full mb-5 md:hidden md:min-h-0 md:min-w-0">
