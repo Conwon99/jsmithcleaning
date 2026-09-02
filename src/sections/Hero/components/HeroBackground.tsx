@@ -10,7 +10,7 @@ export const HeroBackground = () => {
               <div
                 className="absolute caret-transparent h-[743px] break-words w-full z-[2] overflow-hidden left-0 top-0 md:h-[695px] bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${encodeURI("/hero-background.png")}')`,
+                  backgroundImage: `url('${encodeURI("/hero-background.jpg")}')`,
                   backgroundPosition: 'center',
                   backgroundSize: 'cover'
                 }}
