@@ -1,6 +1,6 @@
 export const Logo = () => {
   return (
-    <div className="text-sm box-border caret-transparent clear-both flex grow float-none leading-[20.3px] min-h-px min-w-0 break-words w-auto mx-auto md:text-[17px] md:clear-none md:float-left md:leading-[24.65px] md:min-w-[auto] md:w-[30%] md:mx-0">
+    <div className="text-sm box-border caret-transparent clear-both flex flex-none float-none leading-[20.3px] min-h-px min-w-0 break-words w-auto mx-0 md:text-[17px] md:clear-none md:float-left md:leading-[24.65px] md:min-w-[auto] md:w-[30%] md:mx-0 md:grow">
       <div className="text-sm box-border caret-transparent flex flex-col grow justify-center leading-[20.3px] max-w-full min-w-px break-words w-full mr-0 md:text-[17px] md:leading-[24.65px] md:mr-[50px]">
         <div className="text-sm box-border caret-transparent leading-[20.3px] break-words w-full md:text-[17px] md:leading-[24.65px] before:accent-auto before:box-border before:caret-transparent before:text-black before:table before:text-sm before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[20.3px] before:list-outside before:list-disc before:break-words before:pointer-events-auto before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-figtree before:md:text-[17px] before:md:leading-[24.65px] after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-black after:table after:text-sm after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[20.3px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:visible after:border-separate after:font-figtree after:md:text-[17px] after:md:leading-[24.65px]">
           <div className="text-sm box-border caret-transparent leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px] before:accent-auto before:box-border before:caret-transparent before:text-black before:table before:text-sm before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[20.3px] before:list-outside before:list-disc before:break-words before:pointer-events-auto before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-figtree before:md:text-[17px] before:md:leading-[24.65px] after:accent-auto after:box-border after:caret-transparent after:clear-both after:text-black after:table after:text-sm after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[20.3px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:visible after:border-separate after:font-figtree after:md:text-[17px] after:md:leading-[24.65px]">
@@ -13,9 +13,8 @@ export const Logo = () => {
                   <img
                     src="/jsmithcleaning.jpg"
                     alt="J Smith Exterior Cleaning Logo"
-                    sizes="auto, (max-width: 787px) 100vw, 787px"
                     title="J Smith Exterior Cleaning Logo"
-                    className="text-sm box-border caret-transparent h-auto break-words object-contain max-h-[260px] max-w-[600px] md:text-[17px] md:max-h-[200px] md:max-w-[500px]"
+                    className="text-sm box-border caret-transparent h-16 w-auto break-words object-contain md:text-[17px] md:h-auto md:max-h-[200px] md:max-w-[500px]"
                   />
                 </a>
               </div>
