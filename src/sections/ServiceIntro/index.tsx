@@ -12,7 +12,7 @@ export const ServiceIntro = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
     { src: "/jsmith-softwashing-before.webp", label: "Before" },
-    { src: "/af1.png", label: "After" }
+    { src: "/jsmith-softwashing-render.webp", label: "After" }
   ];
 
   useEffect(() => {

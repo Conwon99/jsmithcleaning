@@ -6,15 +6,15 @@ export const siteImages = {
   /** Before/after showcase images */
   beforeAfter: {
     before: "/jsmith-softwashing-before.webp",
-    after: "/af1.png",
+    after: "/jsmith-softwashing-render.webp",
   },
   /** Main result/portfolio image (used in DifferentiatorSection, BeforeAfter) */
-  showcase: "/af1.png",
+  showcase: "/jsmith-softwashing-render.webp",
   /** Service images */
   services: {
     roofCleaning: "/services/roofcleaning.webp",
     pressureWashing: "/services/pressurewashing.webp",
-    softWashing: "/af1.png",
+    softWashing: "/jsmith-softwashing-render.webp",
     gutterCleaning: "/services/guttercleaning.webp",
     brickCleaning: "/services/brickcleaning.webp",
     conservatoryCleaning: "/services/conservatorycleaning.webp",
