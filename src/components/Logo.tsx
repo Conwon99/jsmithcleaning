@@ -8,7 +8,7 @@ export const Logo = () => {
               <div className="relative text-sm box-border caret-transparent inline-block max-w-full break-words overflow-hidden md:text-[17px]">
                 <a
                   href="/"
-                  className="text-[#17539B] text-sm box-border caret-transparent break-words ml-4 md:ml-6 md:text-[17px]"
+                  className="text-[#17539B] text-sm box-border caret-transparent break-words md:text-[17px]"
                 >
                   <img
                     src="/jsmithcleaning.jpg"
