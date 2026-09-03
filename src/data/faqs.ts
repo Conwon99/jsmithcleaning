@@ -41,12 +41,6 @@ const serviceFaqs: Record<string, Faq[]> = {
     { question: "Will cleaning restore my patio's original colour?", answer: "In most cases, yes. High-pressure cleaning lifts the built-up algae, dirt, and staining that's dulled the surface, revealing the original colour of your slabs or paving underneath." },
     { question: "How soon can I use my patio in {town} after cleaning?", answer: "You can usually walk on it once the surface has dried, typically within a few hours. If we've applied a sealant, we'll let you know the recommended drying time before it should be used." },
   ],
-  "patio-driveway-cleaning": [
-    { question: "Is it cheaper to book patio and driveway cleaning together?", answer: "Yes, cleaning both areas in one visit is more cost-effective than booking them separately, since we're already on site with the equipment set up." },
-    { question: "How long does a combined patio and driveway clean take?", answer: "For most {town} properties, a combined clean takes a full day, depending on the total surface area and the level of dirt, algae, and staining." },
-    { question: "Can you treat different surface types in the same visit?", answer: "Yes, we regularly clean block paving, tarmac, slabs, and natural stone in the same visit, adjusting pressure and technique for each surface." },
-    { question: "Do you offer sealing across both areas?", answer: "Yes, we can apply a sealant to both your patio and driveway after cleaning, giving your whole outdoor space a consistent, protected finish." },
-  ],
   "pressure-washing": [
     { question: "What surfaces is pressure washing suitable for?", answer: "Pressure washing works well on driveways, patios, paths, walls, and other hard, durable surfaces. For more delicate surfaces like render or cladding, we'd usually recommend soft washing instead." },
     { question: "Will pressure washing damage my surfaces?", answer: "Not when done properly. We use the right pressure and technique for each surface, which is what separates professional pressure washing from a garden hose attachment that can force water under joints or damage weaker materials." },

@@ -24,7 +24,6 @@ const getServiceImageUrl = (title: string): string => {
     'brickcleaning': '/services/brickcleaning.webp',
     'conservatorycleaning': '/services/conservatorycleaning.webp',
     'upvccleaning': '/services/upvccleaning.webp',
-    'patiodrivewaycleaning': '/services/pressurewashing.webp',
   };
   
   return serviceImageMap[filename] || `/services/${filename}.jpg`;
@@ -75,11 +74,6 @@ const services: ServiceItem[] = [
     title: "uPVC Cleaning",
     description: "Restoration cleaning for uPVC windows, doors, frames, fascias, and soffits, removing grime and black mould to bring back that bright white finish and boost your kerb appeal.",
     path: "/upvc-cleaning",
-  },
-  {
-    title: "Patio & Driveway Cleaning",
-    description: "Combined high-pressure cleaning for your whole outdoor space in one visit - block paving, tarmac, slabs, and natural stone. Removes dirt, algae, moss, and stains across both areas.",
-    path: "/patio-driveway-cleaning",
   },
 ];
 

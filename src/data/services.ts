@@ -199,35 +199,6 @@ export const services: Service[] = [
       "Professional patio cleaning with high-pressure washing makes your outdoor space safe again and helps prevent algae returning. Contact J Smith Exterior Cleaning today for a free, no-obligation quote and restore your property's appearance.",
   },
   {
-    slug: "patio-driveway-cleaning",
-    name: "Patio & Driveway Cleaning",
-    beforeAfter: "patio",
-    heroImage: "/services/pressurewashing.webp",
-    serviceImage: "/services/pressurewashing.webp",
-    heroProblem: "Your patio and driveway are covered in algae, moss, and stains. It's letting your property down.",
-    checklist: [
-      "Are your patio and driveway both looking tired in {town}?",
-      "What do you do if algae and moss cover your outdoor surfaces?",
-      "Worried about weeds taking over your paving?",
-      "Want one team to sort your whole outdoor space?",
-      "Need your patio and driveway looking new again?",
-      "Looking for safe cleaning that works?",
-    ],
-    methodName: "High-Pressure Cleaning",
-    serviceDescription:
-      "Our combined patio and driveway cleaning service uses high-pressure washing to clean your whole outdoor space in one visit - block paving, tarmac, slabs, and natural stone. We remove dirt, algae, moss, and stains, and can finish with sand re-jointing and a sealant across both areas.",
-    methodBenefitsHeading: "High-Pressure Cleaning Benefits",
-    methodBenefits:
-      "Cleaning your patio and driveway together saves you time and gives your whole property a consistent, freshly cleaned look. High-pressure washing lifts ground-in dirt and stains, and an optional sealant treatment helps keep both surfaces looking newer for longer.",
-    whyChoose:
-      "Patio and driveway cleaning transforms your whole outdoor space in one visit and stops algae and weeds taking hold again. Call J Smith Exterior Cleaning today for a free quote. We'll get your property looking good again.",
-    localReason: "Ayrshire's wet weather means algae, moss, and weeds build up fast across paved areas",
-    localConsequence: "it makes surfaces slippery and unsafe. It looks unkempt. It lowers your property's kerb appeal.",
-    processStep3: "We clean your patio and driveway properly. We remove all the dirt, moss, and staining. We get the job done right. Your outdoor space will look clean again.",
-    finalCta:
-      "Professional patio and driveway cleaning restores your whole outdoor space and helps prevent moss and algae returning. Contact J Smith Exterior Cleaning today for a free, no-obligation quote and restore your property's appearance.",
-  },
-  {
     slug: "pressure-washing",
     name: "Pressure Washing",
     beforeAfter: "roof",

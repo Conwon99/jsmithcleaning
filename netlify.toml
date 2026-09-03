@@ -2,6 +2,64 @@
   publish = "dist"
   command = "npm run build"
 
+# Patio & Driveway Cleaning was removed as a combined service (kept patio-cleaning
+# and driveway-cleaning separately). Redirect the previously-indexed URLs rather
+# than letting them 404, to preserve their SEO value.
+[[redirects]]
+  from = "/patio-driveway-cleaning"
+  to = "/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/ardrossan/patio-driveway-cleaning"
+  to = "/ardrossan/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/ayr/patio-driveway-cleaning"
+  to = "/ayr/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/cumnock/patio-driveway-cleaning"
+  to = "/cumnock/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/irvine/patio-driveway-cleaning"
+  to = "/irvine/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/kilmarnock/patio-driveway-cleaning"
+  to = "/kilmarnock/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/largs/patio-driveway-cleaning"
+  to = "/largs/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/prestwick/patio-driveway-cleaning"
+  to = "/prestwick/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/saltcoats/patio-driveway-cleaning"
+  to = "/saltcoats/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/stevenston/patio-driveway-cleaning"
+  to = "/stevenston/patio-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/troon/patio-driveway-cleaning"
+  to = "/troon/patio-cleaning"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]

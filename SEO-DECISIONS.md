@@ -64,17 +64,21 @@ Beyond the known SEO-guide gaps, Phase 1 also found and removed:
 precise map pin (rather than a general "Ayrshire, Scotland" embed) is
 wanted.
 
-## `patio-driveway-cleaning` kept as its own service (found during Phase 3)
+## `patio-driveway-cleaning` removed entirely (owner decision, post-Phase 6)
 
-The audit flagged this as needing a content decision: is it genuine content
-or overlap with `patio-cleaning` + `driveway-cleaning`? Resolved by giving
-it real, distinct copy in `src/data/services.ts` (combined-visit framing -
-"we clean your whole outdoor space in one visit") rather than merging or
-removing it. It targets a real, distinct search intent ("patio and
-driveway cleaning ayr") separate from either single-surface service, and
-now cross-links to both `patio-cleaning` and `driveway-cleaning` via the
-template's "Other Services" section, so it reads as a genuine combined
-offering rather than duplicate content.
+Phase 3's audit had flagged this as needing a content decision (genuine
+service vs. overlap with `patio-cleaning` + `driveway-cleaning`), and it
+was initially kept as its own service with distinct copy. The business
+owner later decided to drop it and offer only the two separate services.
+
+Removed: the `patio-driveway-cleaning` entry from `src/data/services.ts`
+and `src/data/faqs.ts`, its listing in `ServicesList.tsx`, its slug from
+`astro.config.mjs`'s sitemap serialize list, and all 11 page files (the
+root `/patio-driveway-cleaning` page plus one per town). Since these URLs
+were live and indexed, added 301 redirects in `netlify.toml` from every
+`/patio-driveway-cleaning` and `/[town]/patio-driveway-cleaning` URL to
+the equivalent `/patio-cleaning` page, rather than letting them 404 and
+losing their SEO value outright.
 
 ## `/projects` case-study page - blocked (Phase 4)
 

@@ -8,7 +8,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const townSlugs = ['ardrossan', 'ayr', 'cumnock', 'irvine', 'kilmarnock', 'largs', 'prestwick', 'saltcoats', 'stevenston', 'troon'];
-const serviceSlugs = ['roof-cleaning', 'brick-cleaning', 'conservatory-cleaning', 'driveway-cleaning', 'gutter-cleaning', 'patio-cleaning', 'patio-driveway-cleaning', 'pressure-washing', 'soft-washing', 'upvc-cleaning'];
+const serviceSlugs = ['roof-cleaning', 'brick-cleaning', 'conservatory-cleaning', 'driveway-cleaning', 'gutter-cleaning', 'patio-cleaning', 'pressure-washing', 'soft-washing', 'upvc-cleaning'];
 const hubSlugs = ['services', 'locations', 'reviews', 'about', ...townSlugs, ...serviceSlugs];
 
 // https://astro.build/config
