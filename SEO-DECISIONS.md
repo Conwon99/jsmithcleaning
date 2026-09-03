@@ -100,3 +100,15 @@ page, and deleting a file that turns out to matter is harder to undo than
 leaving one that doesn't. Only images actually converted to WebP were
 renamed/deleted (see the file list in the Phase 5 commit) - none of these
 31 unreferenced files were touched.
+
+## Broken footer links found, not fixed (Phase 6)
+
+`FooterBottom.tsx` links to `/privacy-policy` and `/terms-conditions`, but
+neither page exists in `src/pages` - both are dead 404 links, on every
+page of the site. This is outside the SEO Master Guide checklist this
+project worked through, so it wasn't fixed here. Not fixing it by writing
+placeholder legal text either: a Privacy Policy and Terms & Conditions are
+real legal documents (particularly relevant given the site's contact form
+collects personal data) and need real content from the business owner or
+a solicitor, not fabricated boilerplate. Flagging for the owner to action
+separately.
