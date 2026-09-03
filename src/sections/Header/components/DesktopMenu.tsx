@@ -7,6 +7,8 @@ export const DesktopMenu = () => {
             <img
               src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/icon-1.svg"
               alt=""
+              width={24}
+              height={24}
               className="absolute text-sm box-border caret-transparent leading-[20.3px] inset-0 md:text-[17px] md:leading-[24.65px]"
             />
           </div>

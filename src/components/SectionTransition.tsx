@@ -8,6 +8,9 @@ export const SectionTransition = () => {
           src="/jsmithcleaning.jpg"
           alt="J Smith Exterior Cleaning Logo"
           title="J Smith Exterior Cleaning Logo"
+          width={500}
+          height={500}
+          loading="lazy"
           className="box-border caret-transparent h-auto break-words object-contain max-h-[120px] max-w-[240px] md:max-h-[180px] md:max-w-[360px]"
         />
       </div>

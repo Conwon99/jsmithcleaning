@@ -11,8 +11,8 @@ export const ServiceIntro = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    { src: "/bef1.png", label: "Before" },
-    { src: "/af1.png", label: "After" }
+    { src: "/jsmith-softwashing-before.webp", label: "Before" },
+    { src: "/jsmith-softwashing-after.webp", label: "After" }
   ];
 
   useEffect(() => {

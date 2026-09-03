@@ -48,6 +48,9 @@ export const AirScrapingSection = () => {
                                     src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/checked.png"
                                     alt="checked icon"
                                     title="checked"
+                                    width={256}
+                                    height={256}
+                                    loading="lazy"
                                     sizes="(max-width: 256px) 100vw, 256px"
                                     className="text-sm aspect-[auto_256_/_256] caret-transparent max-w-full break-words w-5 md:text-[17px]"
                                   />
@@ -74,6 +77,9 @@ export const AirScrapingSection = () => {
                                     src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/checked.png"
                                     alt="checked icon"
                                     title="checked"
+                                    width={256}
+                                    height={256}
+                                    loading="lazy"
                                     sizes="(max-width: 256px) 100vw, 256px"
                                     className="text-sm aspect-[auto_256_/_256] caret-transparent max-w-full break-words w-5 md:text-[17px]"
                                   />
@@ -100,6 +106,9 @@ export const AirScrapingSection = () => {
                                     src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/checked.png"
                                     alt="checked icon"
                                     title="checked"
+                                    width={256}
+                                    height={256}
+                                    loading="lazy"
                                     sizes="(max-width: 256px) 100vw, 256px"
                                     className="text-sm aspect-[auto_256_/_256] caret-transparent max-w-full break-words w-5 md:text-[17px]"
                                   />

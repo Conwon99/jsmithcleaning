@@ -37,8 +37,11 @@ export const DifferentiatorSection = () => {
                 {/* Right Side - Image */}
                 <div className="relative box-border caret-transparent flex flex-col w-full md:w-1/2">
                   <img
-                    src={encodeURI("/ChatGPT Image Dec 18, 2025, 05_32_55 PM.png")}
+                    src={encodeURI("/jsmith-exterior-cleaning-results.webp")}
                     alt="J Smith Exterior Cleaning - Professional exterior cleaning results"
+                    width={1536}
+                    height={1024}
+                    loading="lazy"
                     className="text-sm box-border caret-transparent block leading-[20.3px] break-words w-full h-[300px] object-cover rounded-lg shadow-lg md:text-[17px] md:h-[400px] md:leading-[24.65px]"
                   />
                 </div>

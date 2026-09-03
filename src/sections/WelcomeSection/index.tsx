@@ -4,7 +4,7 @@ interface WelcomeSectionProps {
   backgroundImage?: string;
 }
 
-export const WelcomeSection = ({ backgroundImage = "/services/pressurewashing.png" }: WelcomeSectionProps) => {
+export const WelcomeSection = ({ backgroundImage = "/services/pressurewashing.webp" }: WelcomeSectionProps) => {
   const features = [
     {
       title: "Fully Insured & Trained",

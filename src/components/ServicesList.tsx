@@ -15,16 +15,16 @@ const getServiceImageUrl = (title: string): string => {
     .replace(/[^a-z0-9]/g, '');
   
   const serviceImageMap: { [key: string]: string } = {
-    'roofcleaning': '/services/roofcleaning.png',
-    'softwashing': '/SOFTWASH1.jpeg',
-    'pressurewashing': '/services/pressurewashing.png',
-    'pvcguttercleaning': '/Gutter.png',
-    'patiocleaning': '/services/patiocleaning.jpg',
-    'drivewaycleaning': '/services/drivewaycleaning.png',
-    'brickcleaning': '/services/brickcleaning.png',
-    'conservatorycleaning': '/services/conservatorycleaning.png',
-    'upvccleaning': '/services/upvccleaning.jpg',
-    'patiodrivewaycleaning': '/services/pressurewashing.png',
+    'roofcleaning': '/services/roofcleaning.webp',
+    'softwashing': '/jsmith-softwashing-icon.webp',
+    'pressurewashing': '/services/pressurewashing.webp',
+    'pvcguttercleaning': '/jsmith-gutter-cleaning-icon.webp',
+    'patiocleaning': '/services/patiocleaning.webp',
+    'drivewaycleaning': '/services/drivewaycleaning.webp',
+    'brickcleaning': '/services/brickcleaning.webp',
+    'conservatorycleaning': '/services/conservatorycleaning.webp',
+    'upvccleaning': '/services/upvccleaning.webp',
+    'patiodrivewaycleaning': '/services/pressurewashing.webp',
   };
   
   return serviceImageMap[filename] || `/services/${filename}.jpg`;

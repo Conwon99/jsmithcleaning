@@ -50,6 +50,9 @@ export const FooterColumn = (props: FooterColumnProps) => {
                   <img
                     src={props.logoUrl || "/jsmithcleaning.jpg"}
                     alt={props.logoAlt || "J Smith Exterior Cleaning Logo"}
+                    width={150}
+                    height={150}
+                    loading="lazy"
                     sizes="(max-width: 150px) 100vw, 150px"
                     className="aspect-[auto_150_/_150] box-border caret-transparent inline-block max-w-full w-[150px]"
                   />

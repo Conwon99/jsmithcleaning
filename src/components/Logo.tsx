@@ -14,6 +14,8 @@ export const Logo = () => {
                     src="/jsmithcleaning.jpg"
                     alt="J Smith Exterior Cleaning Logo"
                     title="J Smith Exterior Cleaning Logo"
+                    width={500}
+                    height={500}
                     className="text-sm box-border caret-transparent h-16 w-auto break-words object-contain md:text-[17px] md:h-auto md:max-h-[200px] md:max-w-[500px]"
                   />
                 </a>

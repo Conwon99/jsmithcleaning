@@ -5,7 +5,7 @@ interface ReviewsSectionProps {
   backgroundImage?: string;
 }
 
-export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.png" }: ReviewsSectionProps) => {
+export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.webp" }: ReviewsSectionProps) => {
   return (
     <section className="relative bg-scroll bg-stone-900/40 bg-no-repeat bg-cover box-border caret-transparent py-10 md:py-16 md:bg-fixed w-full" style={{ backgroundImage: `url('${backgroundImage}')`, backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="absolute bg-black/50 box-border caret-transparent opacity-60 inset-0 md:bg-black/40 w-full"></div>

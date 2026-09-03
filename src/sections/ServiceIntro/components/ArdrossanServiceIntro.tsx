@@ -105,7 +105,7 @@ export const ArdrossanServiceIntro = () => {
                     <div
                       className="text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent block leading-[20.3px] break-words w-full h-[300px] md:text-[17px] md:h-[400px] md:leading-[24.65px]"
                       style={{
-                        backgroundImage: `url('${encodeURI("/bef1.png")}')`,
+                        backgroundImage: `url('${encodeURI("/jsmith-softwashing-before.webp")}')`,
                       }}
                     />
                     
@@ -113,7 +113,7 @@ export const ArdrossanServiceIntro = () => {
                     <div
                       className="absolute text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent block leading-[20.3px] break-words top-0 left-0 w-full h-[300px] md:text-[17px] md:h-[400px] md:leading-[24.65px]"
                       style={{
-                        backgroundImage: `url('${encodeURI("/af1.png")}')`,
+                        backgroundImage: `url('${encodeURI("/jsmith-softwashing-after.webp")}')`,
                         clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`,
                         WebkitClipPath: `inset(0 ${100 - sliderPosition}% 0 0)`,
                       }}

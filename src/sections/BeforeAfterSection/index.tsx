@@ -8,8 +8,8 @@ interface BeforeAfterSectionProps {
 }
 
 export const BeforeAfterSection = ({ 
-  beforeImage = "/WhatsApp Image 2025-12-18 at 4.59.36 PM.jpeg",
-  afterImage = "/WhatsApp Image 2025-12-18 at 5.00.34 PM.jpeg",
+  beforeImage = "/jsmith-before-after-default-before.jpeg",
+  afterImage = "/jsmith-before-after-default-after.webp",
   title = "Before & After",
   subtitle = "J Smith Exterior Cleaning"
 }: BeforeAfterSectionProps = {}) => {

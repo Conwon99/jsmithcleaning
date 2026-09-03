@@ -13,6 +13,9 @@ export const SafeAccessSection = () => {
                         src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/12-square-bda4bbc8ba69893245fa64ddb884e115-k5stne8bqxf1.jpeg"
                         alt="12"
                         title="12"
+                        width={2000}
+                        height={1118}
+                        loading="lazy"
                         className="text-sm aspect-[auto_2000_/_1118] box-border caret-transparent max-w-full break-words w-[2000px] md:text-[17px]"
                       />
                     </div>
@@ -60,6 +63,9 @@ export const SafeAccessSection = () => {
                                     src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/checked.png"
                                     alt="checked icon"
                                     title="checked"
+                                    width={256}
+                                    height={256}
+                                    loading="lazy"
                                     sizes="(max-width: 256px) 100vw, 256px"
                                     className="text-sm aspect-[auto_256_/_256] caret-transparent max-w-full break-words w-5 md:text-[17px]"
                                   />
@@ -87,6 +93,9 @@ export const SafeAccessSection = () => {
                                     src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/checked.png"
                                     alt="checked icon"
                                     title="checked"
+                                    width={256}
+                                    height={256}
+                                    loading="lazy"
                                     sizes="(max-width: 256px) 100vw, 256px"
                                     className="text-sm aspect-[auto_256_/_256] caret-transparent max-w-full break-words w-5 md:text-[17px]"
                                   />
@@ -114,6 +123,9 @@ export const SafeAccessSection = () => {
                                     src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/checked.png"
                                     alt="checked icon"
                                     title="checked"
+                                    width={256}
+                                    height={256}
+                                    loading="lazy"
                                     sizes="(max-width: 256px) 100vw, 256px"
                                     className="text-sm aspect-[auto_256_/_256] caret-transparent max-w-full break-words w-5 md:text-[17px]"
                                   />

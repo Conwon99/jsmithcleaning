@@ -114,7 +114,7 @@ export const SoftwashingSection = () => {
               <div
                 className="text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent block leading-[20.3px] break-words w-full h-[400px] md:text-[17px] md:h-[500px] md:leading-[24.65px]"
                 style={{
-                  backgroundImage: `url('${encodeURI("/SOFTWASH.jpeg")}')`,
+                  backgroundImage: `url('${encodeURI("/jsmith-softwashing-background.jpeg")}')`,
                 }}
               />
 
@@ -122,7 +122,7 @@ export const SoftwashingSection = () => {
               <div
                 className="absolute text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent block leading-[20.3px] break-words top-0 left-0 h-full md:text-[17px] md:leading-[24.65px]"
                 style={{
-                  backgroundImage: `url('${encodeURI("/WhatsApp Image 2025-12-18 at 5.02.17 PM.jpeg")}')`,
+                  backgroundImage: `url('${encodeURI("/jsmith-softwashing-background-2.webp")}')`,
                   width: `${sliderPosition}%`,
                   clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`,
                 }}

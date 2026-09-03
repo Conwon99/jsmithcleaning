@@ -45,8 +45,8 @@ export const CumnockServiceIntro = () => {
                 </div>
                 <div className="relative box-border caret-transparent flex flex-col w-full md:w-1/2">
                   <div ref={containerRef} className="relative overflow-hidden rounded-lg shadow-2xl w-full h-[300px] md:h-[400px]" onTouchStart={() => setIsDragging(true)} onTouchEnd={() => setIsDragging(false)} onTouchMove={(e) => { if (!containerRef.current) return; const rect = containerRef.current.getBoundingClientRect(); setSliderPosition(Math.max(0, Math.min(100, ((e.touches[0].clientX - rect.left) / rect.width) * 100))); }}>
-                    <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${encodeURI("/bef1.png")}')` }} />
-                    <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${encodeURI("/af1.png")}')`, clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`, WebkitClipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }} />
+                    <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${encodeURI("/jsmith-softwashing-before.webp")}')` }} />
+                    <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${encodeURI("/jsmith-softwashing-after.webp")}')`, clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`, WebkitClipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }} />
                     <div className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize z-10" style={{ left: `${sliderPosition}%`, transform: 'translateX(-50%)' }} onMouseDown={handleMouseDown}>
                       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center"><div className="flex gap-1"><div className="w-1 h-4 bg-[#17539B] rounded"></div><div className="w-1 h-4 bg-[#17539B] rounded"></div></div></div>
                     </div>

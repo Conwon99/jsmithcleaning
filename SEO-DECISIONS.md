@@ -86,3 +86,17 @@ sounding customer projects would be fabricated content, which risks more
 harm than a missing page. Blocked pending real material from the owner.
 `/reviews` (real testimonials, already collected) was built instead, since
 that content already exists and doesn't have this problem.
+
+## Unused images left in place (found during Phase 5)
+
+While auditing images for WebP conversion, 31 files under `static/` (and
+a duplicate `static/imgs/` folder) turned out to be unreferenced anywhere
+in the code - leftover Alba Exteriors template assets (`alba-logo.png`,
+`logo_bg_alba_exteriors_paisley.png`, etc.) and generic AI-generated
+placeholder images. These were **left in place, not deleted**: some
+(`before-roof.jpeg`, `after-roof.jpeg`, `about.jpg`) look like they could
+be genuine real photos worth reusing for the still-unbuilt `/projects`
+page, and deleting a file that turns out to matter is harder to undo than
+leaving one that doesn't. Only images actually converted to WebP were
+renamed/deleted (see the file list in the Phase 5 commit) - none of these
+31 unreferenced files were touched.

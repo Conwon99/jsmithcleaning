@@ -18,6 +18,7 @@ export const GalleryCarousel = () => {
                 className="text-black box-content caret-black inline md:text-cyan-600 md:aspect-auto md:box-border md:caret-transparent md:block md:break-words md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/585521132_122168664086473890_8585436436601003537_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=i7oLAfwnhVAQ7kNvwHC0B5P&_nc_oc=AdnYRFmVIbZLvvf1LFyaP1vpsLwQmF1xGz2h2Qo9UCuHDk2uvrcsYY8oBjM3wnNhW9A&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AfkyDc5_c7Ap0XKmb0NChRfPkmJ2f2aBEWWZb-gJv-N9fg&oe=694B2F14"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="Softwashing work"
@@ -38,6 +39,7 @@ export const GalleryCarousel = () => {
                 className="text-black box-content caret-black inline md:text-cyan-600 md:aspect-auto md:box-border md:caret-transparent md:block md:break-words md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/584952550_122168664128473890_442508979403143902_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ScfHT9AwUAkQ7kNvwHhSXdt&_nc_oc=Adn2-_yZtfzg2tlZdR0I71D3s7XRYXwkZBPquXTerWrJ5FV3Qjv9ADRxDnbkSsTlM7o&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AflfA43jjxDnG2HprUn0AfeOSL0Mto5whxSZ9Q6AwIVDmg&oe=694B0B2F"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="Softwashing work"
@@ -58,6 +60,7 @@ export const GalleryCarousel = () => {
                 className="text-black box-content caret-black inline md:text-cyan-600 md:aspect-auto md:box-border md:caret-transparent md:block md:break-words md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/584526787_122168664170473890_2194457954523513499_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cjq36NHmqTIQ7kNvwFNwKHf&_nc_oc=AdkiuW__E-xArr7rISSqtnMFxbREwsEel-g7Y_0JQNSwNOn1pXkH4do7WPIieSrH-WY&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_Afl391McXFcIVwuIqVHusR5TLh1Jc5ySM5tbQNfpFzLP5A&oe=694B34D3"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="Softwashing work"
@@ -78,6 +81,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/584058044_122168664212473890_2493344931922053986_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tPmwQt90NX0Q7kNvwFnX2gw&_nc_oc=AdmmJfSvdwBfN2AGGNTJsG1WSM4-YORfi2Qb1wZ85KgD1RqtZMfIebmzqCKnOXB2eKM&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_Afn4_wDKfSDcJpw9iMJldSs6xtGPC4ZFZsHJrVWaq__tQw&oe=694B243C"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="Softwashing work"
@@ -93,6 +97,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/584771889_122168664260473890_2192689465622597832_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hKLEHVrdF4cQ7kNvwH6hpHa&_nc_oc=Admc4liZ4W82z8jnsoJHqbsbPaaU0Zq-7PEp5rfLtMZCWLSoQO3rYJUfaNXpT94lWII&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_Afm7-Eu3iEgjLCrnY4t2pxVQS8Hd75GCuuEc6zvCiHFd6w&oe=694B330F"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="Softwashing work"
@@ -108,6 +113,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/548018728_122162358470473890_3160657678905874304_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ZQXP5Ohi6R8Q7kNvwEvZSbl&_nc_oc=AdkBnbe84ekNTp1EicFcrmR8Kmyiot8BS8uBFd-TW2MbAZ1JVToxgLHQm93Lz5oIImg&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_Afm_MX3VKRlZ89ZYfIHQYfnkfNLlEgwQM0PCy0aOD5ZWdw&oe=694B1685"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="Exterior cleaning work"
@@ -123,6 +129,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/548195173_122162358494473890_7411197855739044303_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5vVttwOZEokQ7kNvwFLd6h1&_nc_oc=AdkMdGDKwF599hoewcNsfY7iAGAEwGrCwRTx_ANEUXVyG9sikUEk0CGM7g8LqgHp_YM&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AfnutAN88dqJL0bPM5Re8rqxQXfiwAxptGp8e5oGWkPMpg&oe=694B38E9"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="Exterior cleaning work"
@@ -138,6 +145,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/545667685_122162358968473890_183366117442875221_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=u7oZqmXY6REQ7kNvwHhZ76n&_nc_oc=AdkylEAikucpbJeSdTd5egm1pvLChOI5x_Ket3jOE_OGP01D-BcCho6bpCeEniQ8BXQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AflTzpepZmxYoNO6OO9EOGZAOwodxBgi1A0t413vxFBCtg&oe=694B0872"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="Exterior cleaning work"
@@ -153,6 +161,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/548411194_122162355140473890_842225577827800537_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5MNBY3kIGWoQ7kNvwEzOq4P&_nc_oc=AdlrT5x8HSt0SBCs4p4TGTmHUDMy5xht7KVJXmIaoVANxBRJ-A1ZrbNtFCL83f4l7RQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AfmE-Fm7CYHzime-Hd0qxZXFj9olAYV22IvJOyqYt_AnYQ&oe=694B1ED0"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="Screenshot"
@@ -168,6 +177,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/547831419_122162355176473890_536477156506421380_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=M7WL2jKFBBAQ7kNvwEhSXdH&_nc_oc=Adm0pD9M5XBDiUVNdRp8yyTkf-Cd9WIX20zq6fIlfDRHbRmlmy3Adife6oQSPaVJg_M&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_Afn3lselpi1OSjAwNyZgOYu--KC0yauSSYw8jNcXUq7ZsQ&oe=694B0F87"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="Screenshot"
@@ -183,6 +193,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/511298017_122153261330473890_9209155677916386037_n.jpg?stp=cp6_dst-jpegr_s590x590_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=71Jh48qNzVIQ7kNvwGQhIG_&_nc_oc=AdkuRbzHYIU883SigdEGgSj2ablvmIzVuFS1f7qPgTlr5Z_3Ky_gD4rIuHCSdNQ1jPk&_nc_zt=23&se=-1&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AfmgRtGvMZ5bJQ_UakzY34nAjLIWS0dDUj_fgkF4vWDt-A&oe=694B3C72"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="Screenshot"
@@ -198,6 +209,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/514067191_122153261510473890_284603856959469722_n.jpg?stp=cp6_dst-jpegr_s590x590_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7-aFyXTp_-gQ7kNvwE1faGX&_nc_oc=Adl5vDXKxK4g_n6hGglaX39s6pGDMR_3YbFdt7G6EAsl1zWOk5mOJcgS5dQnTuJhOoY&_nc_zt=23&se=-1&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AfmWuo9jwBETvhf1L4n-lv1u72HFylsXEhtScwZviaK-fg&oe=694B1221"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="Screenshot"
@@ -213,6 +225,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/511272984_122153261798473890_2502956839448199842_n.jpg?stp=cp6_dst-jpegr_s590x590_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eWyR9v8K6tAQ7kNvwFWpmso&_nc_oc=AdmdyLk4N41jCeqZ53_dbl9yQ1xru0S3IX8co3Kx3my0tqximGUlsh7GiQFfpLiRRlI&_nc_zt=23&se=-1&_nc_ht=scontent-iad3-1.xx&_nc_gid=ANOoRRRfoZCyvXwdhzEYwg&oh=00_AfmDEQcnKrfb4aYKqJpOF3NRAdfqwYEwsUObTmink_fo5A&oe=694B1208"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="Screenshot"
@@ -228,6 +241,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/469778566_122127106964473890_3030945816886099985_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ggPbk1a3gVAQ7kNvwFowr2g&_nc_oc=Adn1i3yCtaQ2xh2j833ztJKT40YK93FEEFMXwYY27uphmpATFVIlGuJaUtJUZhCI15k&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=hBLcIAqDfN4yC89mKYQ8Cw&oh=00_Afkxq-xiWNFyg2MSVC8hWmItFnczmkiM6-SV4S-8jq6VqA&oe=694B371B"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="Screenshot"
@@ -243,6 +257,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/469693794_122127106946473890_8992734922102351238_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YJ6LQ_hOBUwQ7kNvwEf5SOs&_nc_oc=AdmrpOTA9IhTq3xZGebzD07t01wc9WrgUwd4a8vaqueXPQgUeHQ9MRTh9wTmYJNSPLY&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=hBLcIAqDfN4yC89mKYQ8Cw&oh=00_AfkdSkWwlhDmH-fkh1sx0cd85nqd5mc0EqtP4K6wZxbPbQ&oe=694B31E2"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="Screenshot"
@@ -258,6 +273,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/469492358_122127106958473890_3943853675674354161_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jh4BGskO1x4Q7kNvwGAR1-g&_nc_oc=AdkZ2sSzbZkESHIVrRGQm1RIsgJQKOxzdEz26xLx2QpwfFB_iV9Nb1GOqExM4spvI-U&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=hBLcIAqDfN4yC89mKYQ8Cw&oh=00_AflLeAL9Al2AZjAXremvcUKiTpEQJLrHfTm_9n2211ccNw&oe=694B3ADE"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="Screenshot"
@@ -273,6 +289,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/IMG4084.jpeg"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="IMG4084"
@@ -288,6 +305,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/IMG4087.jpeg"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="IMG4087"
@@ -303,6 +321,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/IMG4089.jpeg"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="IMG4089"
@@ -318,6 +337,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/photooutput5.jpg"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="photooutput5"
@@ -333,6 +353,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image15.jpeg"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="image15"
@@ -348,6 +369,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image6.jpeg"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="image6"
@@ -363,6 +385,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image5.jpeg"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="image5"
@@ -378,6 +401,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image4.jpeg"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="image4"
@@ -393,6 +417,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image2.jpeg"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="image2"
@@ -408,6 +433,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image1.jpeg"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="Screenshot"
@@ -423,6 +449,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/Roofhero.jpg"
                   alt="Cleaned roof"
                   title="Roofhero"
@@ -438,6 +465,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/RoofCleaning.jpg"
                   alt="Roof Cleaning"
                   title="RoofCleaning"
@@ -453,6 +481,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/438169793_122145788906213503_8702590654254812957_n.jpg"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="438169793_122145788906213503_8702590654254812957_n"
@@ -468,6 +497,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/438128151_122145788894213503_5193792185724781340_n.jpg"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="438128151_122145788894213503_5193792185724781340_n"
@@ -483,6 +513,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/438127902_122145788870213503_6854546795434539846_n.jpg"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="438127902_122145788870213503_6854546795434539846_n"
@@ -498,6 +529,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/436481689_122135408240213503_6136326616924310713_n.jpg"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="436481689_122135408240213503_6136326616924310713_n"
@@ -513,6 +545,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/436225757_122135837084213503_7277796714622698553_n.jpg"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="436225757_122135837084213503_7277796714622698553_n"
@@ -528,6 +561,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/436225757_122135837084213503_727779671462269852353_n.jpg"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="436225757_122135837084213503_727779671462269852353_n"
@@ -543,6 +577,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/436199957_122138167874213503_2924892693296381679_n.jpg"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="436199957_122138167874213503_2924892693296381679_n"
@@ -558,6 +593,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/436199957_122138167874213503_29248926393296381679_n.jpg"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="436199957_122138167874213503_29248926393296381679_n"
@@ -573,6 +609,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/435779602_122138168630213503_5206734913244447057_n.jpg"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="435779602_122138168630213503_5206734913244447057_n"
@@ -588,6 +625,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/434588025_122133534818213503_4677482887628868167_n.jpg"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="434588025_122133534818213503_4677482887628868167_n"
@@ -603,6 +641,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/434071309_122128285604213503_7064815156977243402_n.jpg"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="434071309_122128285604213503_7064815156977243402_n"
@@ -618,6 +657,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/434062843_122127168236213503_6076031259791276668_n.jpg"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="434062843_122127168236213503_6076031259791276668_n"
@@ -633,6 +673,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/434057831_122127168254213503_3607663422408891242_n.jpg"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="434057831_122127168254213503_3607663422408891242_n"
@@ -648,6 +689,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/433489457_122128285214213503_2001392252552845458_n.jpg"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="433489457_122128285214213503_2001392252552845458_n"
@@ -663,6 +705,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/433434943_122128316582213503_1132508970718156424_n.jpg"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="433434943_122128316582213503_1132508970718156424_n"
@@ -678,6 +721,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/432697013_122127145658213503_559503301917993145_n.jpg"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="432697013_122127145658213503_559503301917993145_n"
@@ -693,6 +737,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/432472953_122128285418213503_1751045104591326014_n.jpg"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="432472953_122128285418213503_1751045104591326014_n"
@@ -708,6 +753,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/419303285_122126622230213503_4412795220229149568_n.jpg"
                   alt="Gutter cleaning"
                   title="419303285_122126622230213503_4412795220229149568_n"
@@ -723,6 +769,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p29.jpg"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="p29"
@@ -738,6 +785,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p1-1.jpg"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="p1"
@@ -753,6 +801,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p2-1.jpg"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="p2"
@@ -768,6 +817,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p10.jpg"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="p10"
@@ -783,6 +833,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p11.jpg"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="p11"
@@ -798,6 +849,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p9.jpg"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="p9"
@@ -813,6 +865,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p7.jpg"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="p7"
@@ -828,6 +881,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p8.jpg"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="p8"
@@ -843,6 +897,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p6.jpg"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="p6"
@@ -858,6 +913,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p5.jpg"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="p5"
@@ -873,6 +929,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p4.jpg"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="p4"
@@ -888,6 +945,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p3.jpg"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="p3"
@@ -903,6 +961,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p12.jpg"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="p12"
@@ -918,6 +977,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p13.jpg"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="p13"
@@ -933,6 +993,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p14.jpg"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="p14"
@@ -948,6 +1009,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p15.jpg"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="p15"
@@ -963,6 +1025,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p17.jpg"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="p17"
@@ -978,6 +1041,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p16.jpg"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="p16"
@@ -993,6 +1057,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p18.jpg"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="p18"
@@ -1008,6 +1073,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p19.jpg"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="p19"
@@ -1023,6 +1089,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p20.jpg"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="p20"
@@ -1038,6 +1105,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p28.jpg"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="p28"
@@ -1053,6 +1121,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p27.jpg"
                   alt="Softwashing equipment in use cleaning exterior surfaces and removing moss"
                   title="p27"
@@ -1068,6 +1137,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p26.jpg"
                   alt="Before and after results of professional softwashing service removing algae and dirt"
                   title="p26"
@@ -1083,6 +1153,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p25.jpg"
                   alt="Exterior cleaning service showing clean walls after softwashing treatment"
                   title="p25"
@@ -1098,6 +1169,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p23.jpg"
                   alt="Professional exterior cleaning service removing algae and moss from walls"
                   title="p23"
@@ -1113,6 +1185,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p24.jpg"
                   alt="Softwashing service demonstration cleaning exterior surfaces safely"
                   title="p24"
@@ -1128,6 +1201,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p22.jpg"
                   alt="Exterior cleaning results showing clean property after softwashing treatment"
                   title="p22"
@@ -1143,6 +1217,7 @@ export const GalleryCarousel = () => {
                 className="text-cyan-600 text-sm box-border caret-transparent block leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/p21.jpg"
                   alt="Professional cleaning service removing dirt and algae from exterior walls"
                   title="p21"
@@ -1158,6 +1233,7 @@ export const GalleryCarousel = () => {
                 className="text-black box-content caret-black inline md:text-cyan-600 md:aspect-auto md:box-border md:caret-transparent md:block md:break-words md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image0.jpg"
                   alt="Softwashing equipment cleaning exterior surfaces with low-pressure system"
                   title="image0"
@@ -1178,6 +1254,7 @@ export const GalleryCarousel = () => {
                 className="text-black box-content caret-black inline md:text-cyan-600 md:aspect-auto md:box-border md:caret-transparent md:block md:break-words md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image13.jpg"
                   alt="Exterior cleaning service results showing transformed property appearance"
                   title="Screenshot"
@@ -1200,6 +1277,7 @@ export const GalleryCarousel = () => {
                 className="text-black box-content caret-black inline md:text-cyan-600 md:aspect-auto md:box-border md:caret-transparent md:block md:break-words md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
               >
                 <img
+                  loading="lazy"
                   src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image12.jpg"
                   alt="Professional softwashing service cleaning exterior walls and removing algae"
                   title="image12"

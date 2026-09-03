@@ -13,11 +13,13 @@ export const VideoSection = () => {
                         <div className="text-sm box-border caret-transparent leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
                           <div className="relative text-sm box-border caret-transparent h-[150px] leading-[20.3px] max-w-full break-words w-[335px] z-0 overflow-hidden mr-auto md:text-[17px] md:h-96 md:leading-[24.65px] md:w-[640px]">
                             <img
+                              loading="lazy"
                               src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/486724052_122244670646213503_6894785614203771315_n.jpg"
                               alt="Video thumbnail showing professional exterior cleaning service demonstration"
                               className="absolute text-sm box-border caret-transparent h-[150px] leading-[20.3px] max-w-full object-cover break-words w-full z-20 top-0 md:text-[17px] md:h-96 md:leading-[24.65px]"
                             />
                             <img
+                              loading="lazy"
                               src="https://c.animaapp.com/mjbg2zzdHx1neY/assets/image9.jpg"
                               alt="Cleaning service video preview showing professional roof cleaning work in progress"
                               className="absolute text-sm box-border caret-transparent h-[150px] leading-[20.3px] max-w-full object-cover break-words w-full z-10 top-0 md:text-[17px] md:h-96 md:leading-[24.65px]"
