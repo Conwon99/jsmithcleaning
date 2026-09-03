@@ -1,5 +1,5 @@
 import React from "react";
-import { TroonServicesGrid } from "@/sections/ServicesSection/components/TroonServicesGrid";
+import { TownServicesGrid } from "@/sections/ServicesSection/components/TownServicesGrid";
 
 export const TroonServicesSection = () => (
   <div id="services" className="relative text-sm box-border caret-transparent leading-[20.3px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
@@ -18,7 +18,7 @@ export const TroonServicesSection = () => (
             We serve Troon and the surrounding areas. Coastal humidity and salt air mean algae and moss thrive on Troon properties. We've been helping Troon homeowners fix these problems for years. Whether you're in the town centre, Barassie, Loans, Prestwick, or anywhere nearby, we can help.
           </p>
         </div>
-        <TroonServicesGrid />
+        <TownServicesGrid townSlug="troon" />
       </div>
     </div>
   </div>

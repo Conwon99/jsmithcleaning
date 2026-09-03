@@ -5,8 +5,8 @@ import { WelcomeSection } from '@/sections/WelcomeSection';
 import { ReviewsSection } from '@/sections/ReviewsSection';
 import { RoofCleaningBeforeAfter } from '@/sections/BeforeAfterSection/RoofCleaningBeforeAfter';
 import { PatioCleaningBeforeAfter } from '@/sections/BeforeAfterSection/PatioCleaningBeforeAfter';
-import { getLocationBySlug, formatServiceArea } from '@/data/locations';
-import { getServiceBySlug } from '@/data/services';
+import { getLocationBySlug, formatServiceArea, getNearbyLocations } from '@/data/locations';
+import { getServiceBySlug, getRelatedServices } from '@/data/services';
 
 interface Props {
   townSlug: string;
@@ -26,6 +26,8 @@ const serviceLower = service.name.toLowerCase();
 const serviceArea = formatServiceArea(location);
 const checklist = service.checklist.map((item) => item.replace(/\{town\}/g, town));
 const heroExtra = `We tackle it safely using our ${service.methodName.toLowerCase()}.`;
+const nearbyLocations = getNearbyLocations(townSlug);
+const relatedServices = getRelatedServices(serviceSlug);
 ---
 
 <BaseLayout
@@ -520,6 +522,42 @@ const heroExtra = `We tackle it safely using our ${service.methodName.toLowerCas
               </div>
             </section>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nearby Areas & Related Services -->
+    <section class="relative bg-white box-border caret-transparent pb-12 md:pb-16">
+      <div class="relative box-border caret-transparent flex flex-wrap max-w-[1300px] mx-auto px-5 md:px-0 md:flex-nowrap gap-8">
+        {nearbyLocations.length > 0 && (
+          <div class="relative box-border caret-transparent w-full md:w-1/2">
+            <h2 class="text-neutral-900 text-xl font-bold box-border caret-transparent leading-7 mb-4 font-thiccboi md:text-2xl md:leading-8">
+              {service.name} in Nearby Areas
+            </h2>
+            <ul class="list-none p-0 m-0 flex flex-wrap gap-3">
+              {nearbyLocations.map((nearby) => (
+                <li>
+                  <a href={`/${nearby.slug}/${serviceSlug}`} class="inline-block text-[#17539B] font-semibold hover:underline">
+                    {service.name} {nearby.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <div class="relative box-border caret-transparent w-full md:w-1/2">
+          <h2 class="text-neutral-900 text-xl font-bold box-border caret-transparent leading-7 mb-4 font-thiccboi md:text-2xl md:leading-8">
+            Other Services in {town}
+          </h2>
+          <ul class="list-none p-0 m-0 flex flex-wrap gap-3">
+            {relatedServices.map((related) => (
+              <li>
+                <a href={`/${townSlug}/${related.slug}`} class="inline-block text-[#17539B] font-semibold hover:underline">
+                  {related.name} {town}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from "react";
-import { LargsServicesGrid } from "@/sections/ServicesSection/components/LargsServicesGrid";
+import { TownServicesGrid } from "@/sections/ServicesSection/components/TownServicesGrid";
 
 export const LargsServicesSection = () => (
   <div id="services" className="relative text-sm box-border caret-transparent leading-[20.3px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
@@ -18,7 +18,7 @@ export const LargsServicesSection = () => (
             We serve Largs and the surrounding areas. Coastal humidity and sea spray mean algae and moss thrive on Largs properties. We've been helping Largs homeowners fix these problems for years. Whether you're in the town centre, Fairlie, Skelmorlie, Wemyss Bay, or anywhere nearby, we can help.
           </p>
         </div>
-        <LargsServicesGrid />
+        <TownServicesGrid townSlug="largs" />
       </div>
     </div>
   </div>

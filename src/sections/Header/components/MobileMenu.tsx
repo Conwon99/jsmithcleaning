@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { services } from "@/data/services";
 
 export const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -132,42 +133,17 @@ export const MobileMenu = () => {
                           All Services
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="/roof-cleaning"
-                          onClick={() => setIsOpen(false)}
-                          className="text-white/80 text-base box-border caret-transparent block tracking-[1px] leading-6 break-words py-2 px-6 hover:text-cyan-400 transition-colors"
-                        >
-                          Roof Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/pressure-washing"
-                          onClick={() => setIsOpen(false)}
-                          className="text-white/80 text-base box-border caret-transparent block tracking-[1px] leading-6 break-words py-2 px-6 hover:text-cyan-400 transition-colors"
-                        >
-                          Pressure Washing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/gutter-cleaning"
-                          onClick={() => setIsOpen(false)}
-                          className="text-white/80 text-base box-border caret-transparent block tracking-[1px] leading-6 break-words py-2 px-6 hover:text-cyan-400 transition-colors"
-                        >
-                          PVC/Gutter Cleaning
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/soft-washing"
-                          onClick={() => setIsOpen(false)}
-                          className="text-white/80 text-base box-border caret-transparent block tracking-[1px] leading-6 break-words py-2 px-6 hover:text-cyan-400 transition-colors"
-                        >
-                          Softwashing
-                        </a>
-                      </li>
+                      {services.map((service) => (
+                        <li key={service.slug}>
+                          <a
+                            href={`/${service.slug}`}
+                            onClick={() => setIsOpen(false)}
+                            className="text-white/80 text-base box-border caret-transparent block tracking-[1px] leading-6 break-words py-2 px-6 hover:text-cyan-400 transition-colors"
+                          >
+                            {service.name}
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                   )}
                 </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import { CumnockServicesGrid } from "@/sections/ServicesSection/components/CumnockServicesGrid";
+import { TownServicesGrid } from "@/sections/ServicesSection/components/TownServicesGrid";
 
 export const CumnockServicesSection = () => (
   <div id="services" className="relative text-sm box-border caret-transparent leading-[20.3px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
@@ -18,7 +18,7 @@ export const CumnockServicesSection = () => (
             We serve Cumnock and the surrounding areas. East Ayrshire weather means moss and algae build up on roofs and gutters. We've been helping Cumnock homeowners fix these problems for years. Whether you're in the town centre, Auchinleck, Ochiltree, or anywhere nearby, we can help.
           </p>
         </div>
-        <CumnockServicesGrid />
+        <TownServicesGrid townSlug="cumnock" />
       </div>
     </div>
   </div>

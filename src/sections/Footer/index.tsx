@@ -1,6 +1,7 @@
 import { FooterColumn } from "@/sections/Footer/components/FooterColumn";
 import { SocialLinks } from "@/sections/Footer/components/SocialLinks";
 import { FooterBottom } from "@/sections/Footer/components/FooterBottom";
+import { services } from "@/data/services";
 
 export const Footer = () => {
   return (
@@ -20,14 +21,7 @@ export const Footer = () => {
                 <FooterColumn
                   title="Our Services"
                   variant="services"
-                  services={[
-                    { name: "Roof Cleaning", url: "/roof-cleaning" },
-                    { name: "Pressure Washing", url: "/pressure-washing" },
-                    { name: "PVC/Gutter Cleaning", url: "/gutter-cleaning" },
-                    { name: "Softwashing", url: "/soft-washing" },
-                    { name: "Patio Cleaning", url: "/patio-cleaning" },
-                    { name: "Driveway Cleaning", url: "/driveway-cleaning" },
-                  ]}
+                  services={services.map((service) => ({ name: service.name, url: `/${service.slug}` }))}
                   locations={[
                     { name: "Kilmarnock", url: "/kilmarnock" },
                     { name: "Ayr", url: "/ayr" },

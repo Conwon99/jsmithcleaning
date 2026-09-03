@@ -350,6 +350,22 @@ if (locationName) {
     </a>
     <Header client:load />
     <main id="main-content">
+      {breadcrumbs && breadcrumbs.length > 1 && (
+        <nav aria-label="Breadcrumb" class="max-w-[1300px] mx-auto px-5 py-3 text-sm text-neutral-600">
+          <ol class="flex flex-wrap items-center gap-1">
+            {breadcrumbs.map((crumb, index) => (
+              <li class="flex items-center gap-1">
+                {index > 0 && <span aria-hidden="true" class="mx-1 text-neutral-400">/</span>}
+                {index === breadcrumbs.length - 1 ? (
+                  <span aria-current="page" class="text-neutral-800 font-medium">{crumb.name}</span>
+                ) : (
+                  <a href={crumb.url} class="text-[#17539B] hover:underline">{crumb.name}</a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
       <slot />
     </main>
     <Footer client:load />

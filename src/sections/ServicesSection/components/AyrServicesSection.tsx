@@ -1,5 +1,5 @@
 import React from "react";
-import { AyrServicesGrid } from "@/sections/ServicesSection/components/AyrServicesGrid";
+import { TownServicesGrid } from "@/sections/ServicesSection/components/TownServicesGrid";
 
 export const AyrServicesSection = () => (
   <div id="services" className="relative text-sm box-border caret-transparent leading-[20.3px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
@@ -18,7 +18,7 @@ export const AyrServicesSection = () => (
             We serve Ayr and the surrounding areas. As a seaside town, Ayr gets salt air and moisture that mean moss and algae build up on roofs and gutters. We've been helping Ayr homeowners fix these problems for years. Whether you're in the town centre, Alloway, Prestwick, Troon, or anywhere nearby, we can help.
           </p>
         </div>
-        <AyrServicesGrid />
+        <TownServicesGrid townSlug="ayr" />
       </div>
     </div>
   </div>

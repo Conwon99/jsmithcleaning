@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { services } from "@/data/services";
 
 export const SecondaryNav = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -88,30 +89,15 @@ export const SecondaryNav = () => {
                 All Services
               </a>
               <div className="border-t border-neutral-200 my-1"></div>
-              <a
-                href="/roof-cleaning"
-                className="block px-4 py-2 text-neutral-700 text-sm hover:bg-[#17539B]/10 hover:text-[#17539B] transition-colors"
-              >
-                Roof Cleaning
-              </a>
-              <a
-                href="/pressure-washing"
-                className="block px-4 py-2 text-neutral-700 text-sm hover:bg-[#17539B]/10 hover:text-[#17539B] transition-colors"
-              >
-                Pressure Washing
-              </a>
-              <a
-                href="/gutter-cleaning"
-                className="block px-4 py-2 text-neutral-700 text-sm hover:bg-[#17539B]/10 hover:text-[#17539B] transition-colors"
-              >
-                PVC/Gutter Cleaning
-              </a>
-              <a
-                href="/soft-washing"
-                className="block px-4 py-2 text-neutral-700 text-sm hover:bg-[#17539B]/10 hover:text-[#17539B] transition-colors"
-              >
-                Softwashing
-              </a>
+              {services.map((service) => (
+                <a
+                  key={service.slug}
+                  href={`/${service.slug}`}
+                  className="block px-4 py-2 text-neutral-700 text-sm hover:bg-[#17539B]/10 hover:text-[#17539B] transition-colors"
+                >
+                  {service.name}
+                </a>
+              ))}
             </div>
           </li>
           <li>

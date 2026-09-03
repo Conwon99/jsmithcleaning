@@ -3,9 +3,13 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { ServicesList } from '@/components/ServicesList';
 ---
 
-<BaseLayout 
+<BaseLayout
   title="Exterior Cleaning Services | Roof, Pressure Washing, PVC/Gutter, Softwashing | J Smith Exterior Cleaning"
   description="Professional exterior cleaning services in Ayrshire, Glasgow and surrounding areas. Roof cleaning, pressure washing, PVC/gutter cleaning, and softwashing. Fully insured, expert service."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Services", url: "/services" }
+  ]}
 >
   <div
     role="main"

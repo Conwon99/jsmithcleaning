@@ -3,9 +3,13 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { ContactFormSection } from '@/sections/ContactFormSection';
 ---
 
-<BaseLayout 
+<BaseLayout
   title="Contact J Smith Exterior Cleaning | Free Quote in Ayrshire"
   description="Get a free quote for exterior cleaning in Ayrshire. Serving Ayrshire, Glasgow and surrounding areas. Professional, reliable service. Contact us today."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Contact", url: "/contact" }
+  ]}
 >
   <div
     role="main"

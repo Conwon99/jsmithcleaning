@@ -63,6 +63,11 @@ export const FooterColumn = (props: FooterColumnProps) => {
                 </p>
               </div>
             </div>
+            <div className="relative text-center w-full box-border caret-transparent">
+              <a href="/about" className="text-cyan-500 box-border caret-transparent hover:text-cyan-400 transition-colors">
+                About Us
+              </a>
+            </div>
           </>
         )}
 

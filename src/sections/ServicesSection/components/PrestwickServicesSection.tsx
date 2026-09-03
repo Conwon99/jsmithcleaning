@@ -1,5 +1,5 @@
 import React from "react";
-import { PrestwickServicesGrid } from "@/sections/ServicesSection/components/PrestwickServicesGrid";
+import { TownServicesGrid } from "@/sections/ServicesSection/components/TownServicesGrid";
 
 export const PrestwickServicesSection = () => (
   <div id="services" className="relative text-sm box-border caret-transparent leading-[20.3px] break-words mx-auto md:text-[17px] md:leading-[24.65px]">
@@ -18,7 +18,7 @@ export const PrestwickServicesSection = () => (
             We serve Prestwick and the surrounding areas. Near the airport, salt air and weather take a toll on Prestwick properties. We've been helping Prestwick homeowners fix these problems for years. Whether you're in the town centre, Ayr, Monkton, or anywhere nearby, we can help.
           </p>
         </div>
-        <PrestwickServicesGrid />
+        <TownServicesGrid townSlug="prestwick" />
       </div>
     </div>
   </div>

@@ -21,6 +21,10 @@ const getServiceImageUrl = (title: string): string => {
     'pvcguttercleaning': '/Gutter.png',
     'patiocleaning': '/services/patiocleaning.jpg',
     'drivewaycleaning': '/services/drivewaycleaning.png',
+    'brickcleaning': '/services/brickcleaning.png',
+    'conservatorycleaning': '/services/conservatorycleaning.png',
+    'upvccleaning': '/services/upvccleaning.jpg',
+    'patiodrivewaycleaning': '/services/pressurewashing.png',
   };
   
   return serviceImageMap[filename] || `/services/${filename}.jpg`;
@@ -56,6 +60,26 @@ const services: ServiceItem[] = [
     title: "Driveway Cleaning",
     description: "Expert driveway cleaning to remove oil stains, dirt, and grime. Enhances curb appeal and extends the life of your driveway. Suitable for all driveway surfaces.",
     path: "/driveway-cleaning",
+  },
+  {
+    title: "Brick Cleaning",
+    description: "Professional brick and sandstone cleaning using gentle soft washing to remove algae, moss, and black staining without damaging pointing or masonry. Restores brickwork to looking years younger.",
+    path: "/brick-cleaning",
+  },
+  {
+    title: "Conservatory Cleaning",
+    description: "Specialist conservatory roof, frame, and glass cleaning that removes algae and grime without scratching the glass or damaging seals. Restores natural light and gives a streak-free finish.",
+    path: "/conservatory-cleaning",
+  },
+  {
+    title: "uPVC Cleaning",
+    description: "Restoration cleaning for uPVC windows, doors, frames, fascias, and soffits, removing grime and black mould to bring back that bright white finish and boost your kerb appeal.",
+    path: "/upvc-cleaning",
+  },
+  {
+    title: "Patio & Driveway Cleaning",
+    description: "Combined high-pressure cleaning for your whole outdoor space in one visit - block paving, tarmac, slabs, and natural stone. Removes dirt, algae, moss, and stains across both areas.",
+    path: "/patio-driveway-cleaning",
   },
 ];
 

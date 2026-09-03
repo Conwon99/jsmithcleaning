@@ -63,3 +63,15 @@ Beyond the known SEO-guide gaps, Phase 1 also found and removed:
 **Still needed from the business owner**: a real street address, if a
 precise map pin (rather than a general "Ayrshire, Scotland" embed) is
 wanted.
+
+## `patio-driveway-cleaning` kept as its own service (found during Phase 3)
+
+The audit flagged this as needing a content decision: is it genuine content
+or overlap with `patio-cleaning` + `driveway-cleaning`? Resolved by giving
+it real, distinct copy in `src/data/services.ts` (combined-visit framing -
+"we clean your whole outdoor space in one visit") rather than merging or
+removing it. It targets a real, distinct search intent ("patio and
+driveway cleaning ayr") separate from either single-surface service, and
+now cross-links to both `patio-cleaning` and `driveway-cleaning` via the
+template's "Other Services" section, so it reads as a genuine combined
+offering rather than duplicate content.

@@ -2,9 +2,13 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 ---
 
-<BaseLayout 
+<BaseLayout
   title="Thank You | J Smith Exterior Cleaning"
   description="Thank you for contacting J Smith Exterior Cleaning. We have received your message and will reach out to you shortly."
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: "Thank You", url: "/thank-you" }
+  ]}
 >
   <div
     role="main"

@@ -1,5 +1,5 @@
 import React from "react";
-import { IrvineServicesGrid } from "@/sections/ServicesSection/components/IrvineServicesGrid";
+import { TownServicesGrid } from "@/sections/ServicesSection/components/TownServicesGrid";
 
 export const IrvineServicesSection = () => {
   return (
@@ -23,7 +23,7 @@ export const IrvineServicesSection = () => {
             </p>
           </div>
           
-          <IrvineServicesGrid />
+          <TownServicesGrid townSlug="irvine" />
         </div>
       </div>
     </div>
