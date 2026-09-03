@@ -5,6 +5,7 @@ import { WelcomeSection } from '@/sections/WelcomeSection';
 import { ReviewsSection } from '@/sections/ReviewsSection';
 import { RoofCleaningBeforeAfter } from '@/sections/BeforeAfterSection/RoofCleaningBeforeAfter';
 import { PatioCleaningBeforeAfter } from '@/sections/BeforeAfterSection/PatioCleaningBeforeAfter';
+import { SoftwashingBeforeAfter } from '@/sections/BeforeAfterSection/SoftwashingBeforeAfter';
 import { getLocationBySlug, formatServiceArea, getNearbyLocations } from '@/data/locations';
 import { getServiceBySlug, getRelatedServices } from '@/data/services';
 import { getFaqsForService } from '@/data/faqs';
@@ -352,9 +353,9 @@ const faqs = getFaqsForService(serviceSlug, town);
     <WelcomeSection client:load backgroundImage={service.serviceImage} />
 
     <!-- Before & After Section -->
-    {service.beforeAfter === "roof"
-      ? <RoofCleaningBeforeAfter client:load />
-      : <PatioCleaningBeforeAfter client:load />}
+    {service.beforeAfter === "roof" && <RoofCleaningBeforeAfter client:load />}
+    {service.beforeAfter === "patio" && <PatioCleaningBeforeAfter client:load />}
+    {service.beforeAfter === "softwashing" && <SoftwashingBeforeAfter client:load />}
 
     <!-- ServiceDetails Section -->
     <section class="relative bg-white box-border caret-transparent py-12 md:py-16">

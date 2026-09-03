@@ -1,8 +1,8 @@
 export interface Service {
   slug: string;
   name: string;
-  /** Before/after component to use: "roof" | "patio" (until dedicated photo sets exist per service) */
-  beforeAfter: "roof" | "patio";
+  /** Before/after component to use: "roof" | "patio" | "softwashing" (falls back to "roof" until dedicated photo sets exist per service) */
+  beforeAfter: "roof" | "patio" | "softwashing";
   heroImage: string;
   serviceImage: string;
   /** Opening problem statement in the hero, e.g. "Your roof's covered in green moss. It's spreading." */
@@ -259,7 +259,7 @@ export const services: Service[] = [
   {
     slug: "soft-washing",
     name: "Soft Washing",
-    beforeAfter: "roof",
+    beforeAfter: "softwashing",
     heroImage: "/jsmith-softwashing-render.webp",
     serviceImage: "/jsmith-softwashing-render.webp",
     heroProblem: "Your render, walls, or roof are covered in algae and green staining. Pressure washing alone won't fix it.",
