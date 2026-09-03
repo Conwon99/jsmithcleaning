@@ -260,8 +260,8 @@ export const services: Service[] = [
     slug: "soft-washing",
     name: "Soft Washing",
     beforeAfter: "roof",
-    heroImage: "/jsmith-softwashing-after.webp",
-    serviceImage: "/jsmith-softwashing-after.webp",
+    heroImage: "/af1.png",
+    serviceImage: "/af1.png",
     heroProblem: "Your render, walls, or roof are covered in algae and green staining. Pressure washing alone won't fix it.",
     checklist: [
       "Is your render or walls covered in green algae in {town}?",
