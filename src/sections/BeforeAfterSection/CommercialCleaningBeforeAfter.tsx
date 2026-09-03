@@ -6,7 +6,7 @@ export const CommercialCleaningBeforeAfter = () => {
     <BeforeAfterSection
       beforeImage="/commercial-cladding-before.webp"
       afterImage="/commercial-cladding-after.webp"
-      title="Commercial Cladding Before & After"
+      title="Commercial Cleaning Before & After"
       subtitle="Commercial Cleaning Results"
     />
   );
