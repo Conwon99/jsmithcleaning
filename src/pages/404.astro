@@ -1,0 +1,45 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page Not Found | J Smith Exterior Cleaning"
+  description="The page you're looking for doesn't exist. Find our exterior cleaning services and service areas in Ayrshire."
+  noindex
+>
+  <div class="min-h-[60vh] flex items-center justify-center px-5 py-20 bg-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <h1 class="text-5xl md:text-6xl font-bold text-[#17539B] mb-4 font-thiccboi">404</h1>
+      <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 mb-4 font-thiccboi">Page Not Found</h2>
+      <p class="text-neutral-600 text-lg mb-8">
+        Sorry, we couldn't find the page you're looking for. It may have been moved or no longer exists.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a
+          href="/"
+          class="bg-[#17539B] hover:bg-[#134080] text-white font-bold uppercase tracking-wide px-7 py-4 rounded-md shadow-lg transition-colors"
+        >
+          Home
+        </a>
+        <a
+          href="/services"
+          class="bg-white border-2 border-[#17539B] text-[#17539B] hover:bg-[#17539B]/10 font-bold uppercase tracking-wide px-7 py-4 rounded-md transition-colors"
+        >
+          Services
+        </a>
+        <a
+          href="/locations"
+          class="bg-white border-2 border-[#17539B] text-[#17539B] hover:bg-[#17539B]/10 font-bold uppercase tracking-wide px-7 py-4 rounded-md transition-colors"
+        >
+          Locations
+        </a>
+        <a
+          href="/contact"
+          class="bg-white border-2 border-[#17539B] text-[#17539B] hover:bg-[#17539B]/10 font-bold uppercase tracking-wide px-7 py-4 rounded-md transition-colors"
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -4,7 +4,7 @@ export const SecondaryNav = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   return (
-    <nav className="hidden md:block bg-[#17539B]/95 border-b-2 border-[#17539B]/80 backdrop-blur-sm relative z-50">
+    <nav aria-label="Secondary navigation" className="hidden md:block bg-[#17539B]/95 border-b-2 border-[#17539B]/80 backdrop-blur-sm relative z-50">
       <div className="max-w-[1300px] mx-auto px-5">
         <ul className="flex items-center justify-center gap-0 relative">
           <li>

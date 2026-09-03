@@ -71,7 +71,7 @@ export const Footer = () => {
                 <FooterColumn
                   title="Service Area"
                   variant="service-area"
-                  mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2280.1234567890123!2d-4.4321!3d55.8456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDUwJzQ0LjIiTiA0wrAyNicwNS42Ilc!5e0!3m2!1sen!2suk!4v1234567890123!5m2!1sen!2suk"
+                  mapEmbedUrl="https://www.google.com/maps?q=Ayrshire,+Scotland&output=embed"
                 />
               </div>
             </section>

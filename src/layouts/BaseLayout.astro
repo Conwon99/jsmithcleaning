@@ -9,9 +9,10 @@ interface Props {
   description?: string;
   breadcrumbs?: Array<{ name: string; url: string }>;
   locationName?: string;
+  noindex?: boolean;
 }
 
-const { title, description = "J Smith Exterior Cleaning - Professional exterior cleaning services in Ayrshire, Glasgow and surrounding areas. Roof cleaning, pressure washing, soft washing, and more. Fully insured, expert service.", breadcrumbs, locationName } = Astro.props;
+const { title, description = "J Smith Exterior Cleaning - Professional exterior cleaning services in Ayrshire, Glasgow and surrounding areas. Roof cleaning, pressure washing, soft washing, and more. Fully insured, expert service.", breadcrumbs, locationName, noindex = false } = Astro.props;
 
 // Generate canonical URL (non-www)
 const canonicalUrl = new URL(Astro.url.pathname, "https://jsmithexteriorcleaning.com");
@@ -42,14 +43,10 @@ const organizationSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "24",
+    "reviewCount": "17",
     "bestRating": "5",
     "worstRating": "1"
   },
-  "sameAs": [
-    "https://www.facebook.com/albaexteriors",
-    "https://www.google.com/maps?cid=YOUR_GOOGLE_BUSINESS_ID"
-  ]
 };
 
 // HomeAndGardenBusiness JSON-LD Schema (more specific than ProfessionalService)
@@ -82,7 +79,7 @@ const schema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "24",
+    "reviewCount": "17",
     "bestRating": "5",
     "worstRating": "1"
   },
@@ -195,7 +192,7 @@ if (locationName) {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
-      "reviewCount": "24",
+      "reviewCount": "17",
       "bestRating": "5",
       "worstRating": "1"
     },
@@ -251,6 +248,7 @@ if (locationName) {
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     
     <!-- Favicon and Icons -->
     <link rel="icon" type="image/jpeg" href="/jsmithcleaning.jpg" />
@@ -340,8 +338,14 @@ if (locationName) {
     </style>
   </head>
   <body class="text-black text-sm not-italic normal-nums font-normal accent-auto bg-zinc-100 box-border caret-transparent block tracking-[normal] leading-[20.3px] list-outside list-disc break-words pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-figtree md:text-[17px] md:leading-[24.65px]">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[9999] focus:bg-[#17539B] focus:text-white focus:px-4 focus:py-2 focus:rounded-md"
+    >
+      Skip to content
+    </a>
     <Header client:load />
-    <main>
+    <main id="main-content">
       <slot />
     </main>
     <Footer client:load />
