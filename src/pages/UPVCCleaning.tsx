@@ -38,7 +38,7 @@ export const UPVCCleaning = () => {
                     Professional uPVC cleaning keeps your windows, doors, and frames looking pristine and maintains their appearance and value. Over time, uPVC surfaces can become discolored, stained, and covered in dirt, grime, and algae, making your property look unkempt.
                   </p>
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
-                    Our professional uPVC cleaning service uses specialized cleaning solutions and techniques to safely remove all dirt, algae, and stains from your uPVC windows, doors, frames, and fascias. We restore your uPVC to its original bright white appearance without causing any damage.
+                    Our professional uPVC cleaning service uses specialised cleaning solutions and techniques to safely remove all dirt, algae, and stains from your uPVC windows, doors, frames, and fascias. We restore your uPVC to its original bright white appearance without causing any damage.
                   </p>
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
                     <strong className="text-sm font-bold box-border caret-transparent leading-[22px] break-words md:text-[17px] md:leading-[24px]">

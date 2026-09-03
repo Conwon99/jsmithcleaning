@@ -16,7 +16,7 @@ export const Footer = () => {
                   variant="who-we-are"
                   logoUrl="/jsmithcleaning.jpg"
                   logoAlt="J Smith Exterior Cleaning Logo"
-                  description="J Smith Exterior Cleaning is a professional exterior cleaning company covering Ayrshire, Glasgow and surrounding areas. We are dedicated to customer satisfaction and reliability, specializing in pressure washing and softwashing services. Our services include pressure washing for driveways, patios, and hard surfaces, as well as gentle softwashing for render, walls, and delicate surfaces to remove algae, moss, and grime without causing damage."
+                  description="J Smith Exterior Cleaning is a professional exterior cleaning company covering Ayrshire, Glasgow and surrounding areas. We are dedicated to customer satisfaction and reliability, specialising in pressure washing and softwashing services. Our services include pressure washing for driveways, patios, and hard surfaces, as well as gentle softwashing for render, walls, and delicate surfaces to remove algae, moss, and grime without causing damage."
                 />
                 <FooterColumn
                   title="Our Services"

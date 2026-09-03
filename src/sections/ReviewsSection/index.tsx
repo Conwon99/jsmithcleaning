@@ -1,4 +1,5 @@
 import React from "react";
+import { reviews } from "@/data/reviews";
 
 interface ReviewsSectionProps {
   backgroundImage?: string;
@@ -65,61 +66,19 @@ export const ReviewsSection = ({ backgroundImage = "/services/pressurewashing.pn
               
               {/* Reviews Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div className="bg-neutral-800/50 rounded-lg p-6">
-                  <div className="flex items-center gap-1 mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                      </svg>
-                    ))}
+                {reviews.map((review) => (
+                  <div key={review.author} className="bg-neutral-800/50 rounded-lg p-6">
+                    <div className="flex items-center gap-1 mb-3">
+                      {[...Array(review.rating)].map((_, i) => (
+                        <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                        </svg>
+                      ))}
+                    </div>
+                    <p className="text-white text-base mb-3 font-figtree">"{review.text}"</p>
+                    <p className="text-white/90 text-sm font-semibold">- {review.author}</p>
                   </div>
-                  <p className="text-white text-base mb-3 font-figtree">
-                    "Had Jason and the team round to give the drive and roof a deep clean. The workmanship was great, he knew his stuff. The outcome was outstanding, the roof was left looking like new. 5 star service, will definitely use again in the future."
-                  </p>
-                  <p className="text-white/90 text-sm font-semibold">- Andrew Shearer</p>
-                </div>
-
-                <div className="bg-neutral-800/50 rounded-lg p-6">
-                  <div className="flex items-center gap-1 mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-white text-base mb-3 font-figtree">
-                    "Had this company twice doing jobs for me (monoblock drive) and (roof cleaned) great finish on both jobs, roof looks like brand new, (best looking roof in the street now) decent and fair prices and Jason is a lovely and accommodating guy. Keep up the good work and I will definitely be using them again."
-                  </p>
-                  <p className="text-white/90 text-sm font-semibold">- Robert Smith</p>
-                </div>
-
-                <div className="bg-neutral-800/50 rounded-lg p-6">
-                  <div className="flex items-center gap-1 mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-white text-base mb-3 font-figtree">
-                    "Thanks to Jason at J Smith Power Washing. Got the boys in to power wash the tarmac at my back door as it was covered in green moss and the result came up great, would highly recommend and will definitely be using the boys again. Thanks again for your services."
-                  </p>
-                  <p className="text-white/90 text-sm font-semibold">- Dylan Hall</p>
-                </div>
-
-                <div className="bg-neutral-800/50 rounded-lg p-6">
-                  <div className="flex items-center gap-1 mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <svg key={i} className="text-yellow-400 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-white text-base mb-3 font-figtree">
-                    "Used this company to do a roof clean and they done a great job at a good price and got it done quickly, they also went over and above what we spoke about when they viewed the job initially by doing extra cleaning in and around the areas we agreed on. I would definitely recommend them."
-                  </p>
-                  <p className="text-white/90 text-sm font-semibold">- Darren</p>
-                </div>
+                ))}
               </div>
             </div>
             

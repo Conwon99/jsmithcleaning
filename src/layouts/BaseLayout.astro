@@ -2,6 +2,8 @@
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { StickyMessageButton } from "@/components/StickyMessageButton";
+import { buildFaqSchema, type Faq } from "@/data/faqs";
+import { TOTAL_REVIEW_COUNT } from "@/data/reviews";
 import "../tailwind.css";
 
 interface Props {
@@ -10,9 +12,12 @@ interface Props {
   breadcrumbs?: Array<{ name: string; url: string }>;
   locationName?: string;
   noindex?: boolean;
+  faqs?: Faq[];
 }
 
-const { title, description = "J Smith Exterior Cleaning - Professional exterior cleaning services in Ayrshire, Glasgow and surrounding areas. Roof cleaning, pressure washing, soft washing, and more. Fully insured, expert service.", breadcrumbs, locationName, noindex = false } = Astro.props;
+const { title, description = "J Smith Exterior Cleaning - Professional exterior cleaning services in Ayrshire, Glasgow and surrounding areas. Roof cleaning, pressure washing, soft washing, and more. Fully insured, expert service.", breadcrumbs, locationName, noindex = false, faqs } = Astro.props;
+
+const faqSchema = faqs && faqs.length > 0 ? buildFaqSchema(faqs) : null;
 
 // Generate canonical URL (non-www)
 const canonicalUrl = new URL(Astro.url.pathname, "https://jsmithexteriorcleaning.com");
@@ -43,7 +48,7 @@ const organizationSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "17",
+    "reviewCount": String(TOTAL_REVIEW_COUNT),
     "bestRating": "5",
     "worstRating": "1"
   },
@@ -83,7 +88,7 @@ const schema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "17",
+    "reviewCount": String(TOTAL_REVIEW_COUNT),
     "bestRating": "5",
     "worstRating": "1"
   },
@@ -196,7 +201,7 @@ if (locationName) {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
-      "reviewCount": "17",
+      "reviewCount": String(TOTAL_REVIEW_COUNT),
       "bestRating": "5",
       "worstRating": "1"
     },
@@ -290,6 +295,7 @@ if (locationName) {
     <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
     {localBusinessSchema && <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />}
+    {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
     <!-- Global phone tracking script -->
     <script is:inline>
       (function() {

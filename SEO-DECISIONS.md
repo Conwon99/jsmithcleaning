@@ -75,3 +75,14 @@ driveway cleaning ayr") separate from either single-surface service, and
 now cross-links to both `patio-cleaning` and `driveway-cleaning` via the
 template's "Other Services" section, so it reads as a genuine combined
 offering rather than duplicate content.
+
+## `/projects` case-study page - blocked (Phase 4)
+
+The guide calls for a projects/case-study page type (real jobs: before/after
+photos + a description per project). This has **not** been built. Writing
+genuine project write-ups (specific addresses, dates, outcomes) requires
+real job photos and details from the business owner - inventing plausible-
+sounding customer projects would be fabricated content, which risks more
+harm than a missing page. Blocked pending real material from the owner.
+`/reviews` (real testimonials, already collected) was built instead, since
+that content already exists and doesn't have this problem.

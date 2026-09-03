@@ -33,7 +33,7 @@ const getServiceImageUrl = (title: string): string => {
 const services: ServiceItem[] = [
   {
     title: "Roof Cleaning",
-    description: "Professional roof cleaning with biocide treatment to safely remove moss, algae, and grime while protecting your roof for the long term. Our expert team uses specialized equipment and eco-friendly solutions to restore your roof's appearance and extend its lifespan.",
+    description: "Professional roof cleaning with biocide treatment to safely remove moss, algae, and grime while protecting your roof for the long term. Our expert team uses specialised equipment and eco-friendly solutions to restore your roof's appearance and extend its lifespan.",
     path: "/roof-cleaning",
   },
   {

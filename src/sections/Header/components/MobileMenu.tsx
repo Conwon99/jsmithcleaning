@@ -103,6 +103,15 @@ export const MobileMenu = () => {
                   </a>
                 </li>
                 <li>
+                  <a
+                    href="/reviews"
+                    onClick={() => setIsOpen(false)}
+                    className="text-white text-lg font-semibold box-border caret-transparent block tracking-[1px] leading-7 break-words uppercase py-4 px-3 hover:text-cyan-600 transition-colors text-center"
+                  >
+                    Reviews
+                  </a>
+                </li>
+                <li>
                   <button
                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                     className="text-white text-lg font-semibold box-border caret-transparent w-full flex items-center justify-center gap-2 tracking-[1px] leading-7 break-words uppercase py-4 px-3 hover:text-cyan-600 transition-colors"

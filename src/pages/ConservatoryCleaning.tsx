@@ -35,10 +35,10 @@ export const ConservatoryCleaning = () => {
               <div className="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words w-full md:text-[17px] md:leading-[24.65px] md:w-1/2">
                 <div className="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
-                    Professional conservatory cleaning keeps your conservatory looking beautiful and maximizes the natural light entering your home. Over time, conservatory roofs, windows, and frames can become covered in dirt, algae, moss, and grime, reducing light and making your conservatory look unkempt.
+                    Professional conservatory cleaning keeps your conservatory looking beautiful and maximises the natural light entering your home. Over time, conservatory roofs, windows, and frames can become covered in dirt, algae, moss, and grime, reducing light and making your conservatory look unkempt.
                   </p>
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
-                    Our professional conservatory cleaning service thoroughly cleans all aspects of your conservatory, including the roof, windows, frames, and gutters. We use specialized equipment and cleaning solutions to safely remove all dirt, algae, and stains, restoring your conservatory to its original pristine condition.
+                    Our professional conservatory cleaning service thoroughly cleans all aspects of your conservatory, including the roof, windows, frames, and gutters. We use specialised equipment and cleaning solutions to safely remove all dirt, algae, and stains, restoring your conservatory to its original pristine condition.
                   </p>
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
                     <strong className="text-sm font-bold box-border caret-transparent leading-[22px] break-words md:text-[17px] md:leading-[24px]">

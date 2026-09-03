@@ -38,7 +38,7 @@ export const RoofCleaning = () => {
                     Professional roof cleaning with biocide treatment is essential for maintaining the integrity and appearance of your roof. Over time, roofs accumulate moss, algae, lichen, and other organic growth that can cause damage and reduce the lifespan of your roofing materials.
                   </p>
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
-                    Our roof cleaning service uses specialized biocide treatments that safely and effectively remove these contaminants while protecting your roof for the long term. The biocide treatment not only cleans your roof but also prevents future growth, ensuring your roof stays clean and protected for years to come.
+                    Our roof cleaning service uses specialised biocide treatments that safely and effectively remove these contaminants while protecting your roof for the long term. The biocide treatment not only cleans your roof but also prevents future growth, ensuring your roof stays clean and protected for years to come.
                   </p>
                   <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
                     <strong className="text-sm font-bold box-border caret-transparent leading-[22px] break-words md:text-[17px] md:leading-[24px]">

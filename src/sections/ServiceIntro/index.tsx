@@ -5,7 +5,7 @@ export const ServiceIntro = () => {
     <>Need <span className="text-[#17539B] font-semibold">roof cleaning</span> or <span className="text-[#17539B] font-semibold">gutter cleaning</span> to restore your property's exterior?</>,
     <>Want reliable <span className="text-[#17539B] font-semibold">pressure washing</span> or <span className="text-[#17539B] font-semibold">soft washing</span> services for your home?</>,
     <>Seeking expert <span className="text-[#17539B] font-semibold">driveway cleaning</span> or <span className="text-[#17539B] font-semibold">patio cleaning</span>?</>,
-    <>Need <span className="text-[#17539B] font-semibold">uPVC cleaning</span> or <span className="text-[#17539B] font-semibold">conservatory cleaning</span> to maximize natural light?</>,
+    <>Need <span className="text-[#17539B] font-semibold">uPVC cleaning</span> or <span className="text-[#17539B] font-semibold">conservatory cleaning</span> to maximise natural light?</>,
     "Looking for eco-friendly cleaning solutions for all your exterior cleaning needs?",
   ];
 

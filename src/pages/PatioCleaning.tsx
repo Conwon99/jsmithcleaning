@@ -56,7 +56,7 @@ export const PatioCleaning = () => {
                       Eliminates slip hazards
                     </li>
                     <li className="text-sm box-border caret-transparent leading-[22px] break-words mb-2 md:text-[17px] md:leading-[24px]">
-                      Restores original color and appearance
+                      Restores original colour and appearance
                     </li>
                     <li className="text-sm box-border caret-transparent leading-[22px] break-words md:text-[17px] md:leading-[24px]">
                       Makes your outdoor space more inviting

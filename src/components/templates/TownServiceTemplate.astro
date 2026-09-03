@@ -7,6 +7,7 @@ import { RoofCleaningBeforeAfter } from '@/sections/BeforeAfterSection/RoofClean
 import { PatioCleaningBeforeAfter } from '@/sections/BeforeAfterSection/PatioCleaningBeforeAfter';
 import { getLocationBySlug, formatServiceArea, getNearbyLocations } from '@/data/locations';
 import { getServiceBySlug, getRelatedServices } from '@/data/services';
+import { getFaqsForService } from '@/data/faqs';
 
 interface Props {
   townSlug: string;
@@ -28,12 +29,14 @@ const checklist = service.checklist.map((item) => item.replace(/\{town\}/g, town
 const heroExtra = `We tackle it safely using our ${service.methodName.toLowerCase()}.`;
 const nearbyLocations = getNearbyLocations(townSlug);
 const relatedServices = getRelatedServices(serviceSlug);
+const faqs = getFaqsForService(serviceSlug, town);
 ---
 
 <BaseLayout
-  title={`${service.name} ${town} | Who's the Best ${service.name} Near Me? | J Smith Exterior Cleaning`}
-  description={`Looking for safe cleaning that works? We're the local team ${town} homeowners trust for ${serviceLower}. ${service.heroProblem} We work across ${serviceArea}, and all the surrounding areas. Free quotes, fully insured. Call us today.`}
+  title={`${service.name} in ${town} | J Smith Exterior Cleaning`}
+  description={`Professional ${serviceLower} in ${town} from your local, fully insured team. Free quotes - call J Smith Exterior Cleaning today.`}
   locationName={town}
+  faqs={faqs}
   breadcrumbs={[
     { name: "Home", url: "/" },
     { name: "Locations", url: "/locations" },
@@ -61,7 +64,7 @@ const relatedServices = getRelatedServices(serviceSlug);
             <div class="relative box-border caret-transparent text-center w-full mb-5">
               <div class="box-border caret-transparent">
                 <h1 class="text-white text-[35px] font-bold box-border caret-transparent tracking-[1px] leading-[35px] font-thiccboi md:text-6xl md:tracking-[normal] md:leading-[60px]">
-                  {service.name} {town}
+                  {service.name} in {town}
                 </h1>
               </div>
             </div>
@@ -522,6 +525,27 @@ const relatedServices = getRelatedServices(serviceSlug);
               </div>
             </section>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="relative bg-white box-border caret-transparent py-12 md:py-16">
+      <div class="relative box-border caret-transparent max-w-[900px] mx-auto px-5 md:px-0">
+        <h2 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-9 text-center mb-8 font-thiccboi md:text-4xl md:leading-10">
+          {service.name} FAQs
+        </h2>
+        <div class="space-y-4">
+          {faqs.map((faq) => (
+            <div class="border border-gray-200 rounded-lg p-6 shadow-sm">
+              <h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 mb-2 font-thiccboi md:text-xl">
+                {faq.question}
+              </h3>
+              <p class="text-neutral-700 text-base box-border caret-transparent leading-7 font-figtree">
+                {faq.answer}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,3 +1,5 @@
+import { TOTAL_REVIEW_COUNT } from "@/data/reviews";
+
 interface GoogleReviewBadgeProps {
   /** Always stack below whatever precedes it, instead of sitting beside it on desktop */
   stacked?: boolean;
@@ -52,7 +54,7 @@ export const GoogleReviewBadge = ({ stacked = false }: GoogleReviewBadgeProps = 
           </div>
         </div>
         <span className="text-white/80 text-xs mt-0.5">
-          Based on <span className="bg-[#17539B] text-white px-1.5 py-0.5 rounded font-semibold">17</span> Reviews
+          Based on <span className="bg-[#17539B] text-white px-1.5 py-0.5 rounded font-semibold">{TOTAL_REVIEW_COUNT}</span> Reviews
         </span>
       </div>
     </div>

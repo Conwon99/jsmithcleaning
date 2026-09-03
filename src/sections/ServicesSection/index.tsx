@@ -19,7 +19,7 @@ export const ServicesSection = () => {
               </div>
             </div>
             <p className="text-neutral-700 text-base box-border caret-transparent leading-[24px] break-words max-w-4xl mx-auto font-figtree md:text-lg md:leading-[26px]">
-              At J Smith Exterior Cleaning, we provide professional exterior cleaning services in Ayrshire. Our expert team is dedicated to delivering friendly, reliable service that transforms your property's appearance. We specialize in roof cleaning, pressure washing, soft washing, gutter cleaning, and more. With years of experience and a commitment to quality, we ensure your property looks its best while maintaining the highest standards of customer care. Trust J Smith Exterior Cleaning for all your exterior cleaning needs.
+              At J Smith Exterior Cleaning, we provide professional exterior cleaning services in Ayrshire. Our expert team is dedicated to delivering friendly, reliable service that transforms your property's appearance. We specialise in roof cleaning, pressure washing, soft washing, gutter cleaning, and more. With years of experience and a commitment to quality, we ensure your property looks its best while maintaining the highest standards of customer care. Trust J Smith Exterior Cleaning for all your exterior cleaning needs.
             </p>
           </div>
           

@@ -73,7 +73,7 @@ export const SoftwashingSection = () => {
           <div className="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words w-full md:text-[17px] md:leading-[24.65px] md:w-1/2">
             <div className="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
               <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
-                Softwashing is a gentle, effective cleaning method specifically designed for render and roughcast surfaces. Unlike high-pressure washing, softwashing uses specialized chemicals applied at low pressure to safely remove algae, carbon, moss, and other contaminants without causing any damage to your property.
+                Softwashing is a gentle, effective cleaning method specifically designed for render and roughcast surfaces. Unlike high-pressure washing, softwashing uses specialised chemicals applied at low pressure to safely remove algae, carbon, moss, and other contaminants without causing any damage to your property.
               </p>
               <p className="text-sm text-neutral-700 box-border caret-transparent leading-[22px] break-words mb-4 md:text-[17px] md:leading-[24px]">
                 Our softwashing process ensures that your render and roughcast surfaces are thoroughly cleaned while maintaining their integrity. The low-pressure application combined with professional-grade cleaning solutions effectively breaks down and removes organic growth and staining, leaving your property looking fresh and well-maintained.
