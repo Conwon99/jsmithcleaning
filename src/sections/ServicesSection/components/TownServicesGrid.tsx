@@ -14,7 +14,7 @@ export const TownServicesGrid = ({ townSlug }: Props) => (
         return (
           <a key={service.slug} href={path} className="text-sm box-border caret-transparent relative group leading-[20.3px] break-words overflow-hidden md:text-[17px] md:leading-[24.65px]">
             <div className="text-sm box-border caret-transparent flex flex-col leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
-              <div className="text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent relative block leading-[20.3px] break-words w-full aspect-square transition-transform duration-300 ease-in-out group-hover:scale-110 md:text-[17px] md:leading-[24.65px]" style={{ backgroundImage: `url('${encodeURI(service.serviceImage)}')` }}>
+              <div className="text-sm bg-no-repeat bg-cover bg-center box-border caret-transparent relative block leading-[20.3px] break-words w-full aspect-square transition-transform duration-300 ease-in-out group-hover:scale-110 md:text-[17px] md:leading-[24.65px]" style={{ backgroundImage: `url('${encodeURI(service.heroImage)}')` }}>
                 <div className="text-sm box-border caret-transparent absolute bottom-0 left-0 right-0 bg-[#17539B] leading-[20.3px] break-words flex items-center justify-between px-4 py-3 md:text-[17px] md:leading-[24.65px] md:px-5 md:py-4">
                   <h3 className="text-white text-lg font-bold box-border caret-transparent leading-[24px] break-words uppercase font-thiccboi md:text-xl md:leading-[28px]">{service.name}</h3>
                   <svg className="text-white w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
