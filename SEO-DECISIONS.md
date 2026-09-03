@@ -48,16 +48,18 @@ Beyond the known SEO-guide gaps, Phase 1 also found and removed:
 
 - The footer's Facebook icon and the schema `sameAs` array both linked to
   Alba Exteriors' own Facebook page — sending visitors to a different
-  business. Removed pending the real J Smith Exterior Cleaning Facebook
-  URL.
+  business. **Resolved**: now points to the real page,
+  `https://www.facebook.com/JSmithExteriorCleaning/`.
 - The schema `sameAs` array also had an unfilled `YOUR_GOOGLE_BUSINESS_ID`
-  placeholder. Removed pending the real Google Business Profile URL/CID.
+  placeholder. **Resolved**: now uses the real Google Knowledge Graph
+  entity, `https://www.google.com/search?kgmid=%2Fg%2F11yzw4g5jn` (also
+  linked from the footer's Google icon).
 - The footer "Service Area" map embed used a fabricated `pb=` string with
   literal zero coordinates (not a real place). Replaced with a working
   generic embed for "Ayrshire, Scotland" — a precise pin would need the
   business's real address, which isn't recorded anywhere in the codebase
   (schema only ever uses the broad `addressLocality: "Ayrshire"`).
 
-**Still needed from the business owner**: real Facebook page URL, real
-Google Business Profile URL/CID, and (optionally, for a precise map pin) a
-real street address.
+**Still needed from the business owner**: a real street address, if a
+precise map pin (rather than a general "Ayrshire, Scotland" embed) is
+wanted.
