@@ -40,10 +40,10 @@ export const FooterContactInfo = () => {
                         <span className="text-black text-sm box-border caret-transparent leading-[20.3px] break-words text-center md:text-[17px] md:leading-[24.65px] md:text-left">
                           E -{" "}
                           <a
-                            href="mailto://jasonsmith96@hotmail.co.uk"
+                            href="mailto://jsmithexteriorcleaning@hotmail.com"
                             className="text-sm box-border caret-transparent leading-[20.3px] break-words text-center md:text-[17px] md:leading-[24.65px] md:text-left"
                           >
-                            jasonsmith96@hotmail.co.uk
+                            jsmithexteriorcleaning@hotmail.com
                           </a>
                         </span>
                       </p>

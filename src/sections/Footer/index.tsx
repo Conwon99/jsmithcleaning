@@ -38,7 +38,7 @@ export const Footer = () => {
                 <FooterColumn
                   title="Contact Us"
                   variant="contact-us"
-                  email="jasonsmith96@hotmail.co.uk"
+                  email="jsmithexteriorcleaning@hotmail.com"
                   emailLabel="Email Us:"
                   phone="07857 353191"
                   phoneLabel="Call Us:"
