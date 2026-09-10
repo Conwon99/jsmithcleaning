@@ -58,7 +58,8 @@ export const ContactForm = () => {
         const data = await response.json();
         if (data.errors) {
           console.error("Form errors:", data.errors);
-          alert("There was an error submitting the form. Please try again.");
+          const detail = data.errors.map((err: { message?: string }) => err.message).join(" ");
+          alert(`There was an error submitting the form: ${detail || "unknown error"}`);
           setIsSubmitting(false);
         } else {
           window.location.href = "/thank-you";
