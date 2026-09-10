@@ -12,7 +12,7 @@ export const ContactFormSection = () => {
                   Send us a message
                 </h3>
                 <p className="text-white/90 text-sm box-border caret-transparent leading-[20.3px] break-words md:text-[17px] md:leading-[24.65px]">
-                  Fill in our contact form and we will get back to you.
+                  Fill in our contact form and we will get back to you within 24 hours.
                 </p>
               </div>
             </div>
