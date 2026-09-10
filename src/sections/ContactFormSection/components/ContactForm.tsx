@@ -55,19 +55,27 @@ export const ContactForm = () => {
       if (response.ok) {
         window.location.href = "/thank-you";
       } else {
-        const data = await response.json();
-        if (data.errors) {
-          console.error("Form errors:", data.errors);
-          const detail = data.errors.map((err: { message?: string }) => err.message).join(" ");
-          alert(`There was an error submitting the form: ${detail || "unknown error"}`);
-          setIsSubmitting(false);
-        } else {
-          window.location.href = "/thank-you";
+        const rawBody = await response.text();
+        console.error("Form submission failed:", response.status, response.statusText, rawBody);
+
+        let detail = rawBody;
+        try {
+          const data = JSON.parse(rawBody);
+          if (data.errors) {
+            detail = data.errors.map((err: { message?: string }) => err.message).join(" ");
+          } else if (data.error) {
+            detail = data.error;
+          }
+        } catch {
+          // rawBody wasn't JSON; fall back to showing it as-is
         }
+
+        alert(`Form error (status ${response.status}): ${detail || "unknown error"}`);
+        setIsSubmitting(false);
       }
     } catch (error) {
       console.error("Form submission error:", error);
-      alert("There was an error submitting the form. Please try again.");
+      alert(`There was an error submitting the form: ${error instanceof Error ? error.message : String(error)}`);
       setIsSubmitting(false);
     }
   };
